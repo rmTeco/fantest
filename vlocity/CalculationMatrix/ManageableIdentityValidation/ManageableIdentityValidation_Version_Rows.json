@@ -1,0 +1,531 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b9e7251e-9d1f-f954-f21d-0adb0c748b4c",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "58ba49",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0K6C0000048HuOUAU",
+            "listValues": null,
+            "name": "Operation"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "5582e1a0-2185-bb9f-cebc-00b127ffc17e",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "7be5ce",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0K6C0000048HuQUAU",
+            "listValues": null,
+            "name": "ValidationRequired"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "072b3d8f-9d90-7709-82ce-248ea90e5365",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "eb176f",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0K6C0000048HuPUAU",
+            "listValues": null,
+            "name": "PaymentMethod"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "6e78ed9b-930a-8d77-bdd4-2a0fd45396b7",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "Accesorios",
+            "PaymentMethod": "1001"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "false"
+        },
+        "Name": "3e4433090984341e6e786a77ff612af7",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b2f1122d-5929-1ebc-630d-0bd20d4d905e",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "Accesorios",
+            "PaymentMethod": "1201"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "true"
+        },
+        "Name": "6450018dfe68492e6e623fc675145ebe",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "8bb9a574-6576-f9b5-0265-d8d768085b80",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "Accesorios",
+            "PaymentMethod": "2001"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "false"
+        },
+        "Name": "97d59d5a28be0b0bf6343b82b2d4de48",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "8fbc8df1-e2ea-71ca-e5c0-db9ae9858b1c",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "CambioGarantia",
+            "PaymentMethod": "1001"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "false"
+        },
+        "Name": "61f41885b95575804cdeaa266b0965a7",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "a9bc2257-a691-143f-265f-3483f417bd5d",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "CambioGarantia",
+            "PaymentMethod": "1201"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "true"
+        },
+        "Name": "9d84c01ca6dd0b7f2d18df98940a3b39",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b7955173-e188-7815-4bc9-9e6515443b42",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "CambioGarantia",
+            "PaymentMethod": "2001"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "false"
+        },
+        "Name": "690750fe1bd75c564a65a9161341f981",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c237875e-5ac3-5acc-ebc7-12970eeae045",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "CambioPlan",
+            "PaymentMethod": "NA"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "true"
+        },
+        "Name": "2993f6c0cb7662da3692327a4a7c45ec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e205aaf1-2ff0-fe88-ab88-6361e1ba1486",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "Desconexion",
+            "PaymentMethod": "NA"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "false"
+        },
+        "Name": "a898dbe6d2a3f5fe296315e0a5534fb0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "35799764-c697-adbb-3376-62e444b1262b",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "Dispositivo",
+            "PaymentMethod": "1001"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "false"
+        },
+        "Name": "4be15e60b61c173f22be8ae6aa13174b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "09bb5bee-5ae1-ebf0-fce3-a89d3d88f4b9",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "Dispositivo",
+            "PaymentMethod": "1201"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "true"
+        },
+        "Name": "35faee92e4e5ae4214bee7e4c8cec00a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e4fc4953-c31e-b238-15d4-7cfccd3c29ad",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "Dispositivo",
+            "PaymentMethod": "2001"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "false"
+        },
+        "Name": "a24ebdb4e173c9f377f2a9c7709c8935",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "3c60efcf-9b88-d6af-d306-f58c3f59affa",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "Pack",
+            "PaymentMethod": "1001"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "false"
+        },
+        "Name": "2d4219210fac1fa699822c0ea8ee55a1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "d9f427ee-35fb-4406-ad0f-b0eafa7343b7",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "Pack",
+            "PaymentMethod": "1201"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "true"
+        },
+        "Name": "44cb8674494a85ee1bc5d5224849a86d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "102f75a4-e1ff-da2f-d051-cf0f540db528",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "Pack",
+            "PaymentMethod": "2001"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "false"
+        },
+        "Name": "408e1cf391cf35d5848cc4424b14c079",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "1df38e2e-cac9-5e3b-9ead-4ab56baa7901",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "PlanPrepago",
+            "PaymentMethod": "1001"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "true"
+        },
+        "Name": "feb5fedabb448829adf9f1fbf2edcae6",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "97d9885b-8a80-f903-eb2e-f6f239e9167a",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "PlanPrepago",
+            "PaymentMethod": "1201"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "true"
+        },
+        "Name": "97321ef01e317bc2bd2eee6f17a140d1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "754d59ee-ae76-06b5-db3c-a05676f9a9fc",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "PlanPrepago",
+            "PaymentMethod": "2001"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "true"
+        },
+        "Name": "4b20becd576ad99d2c3e98845667e394",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "265c195f-dfe7-f181-3501-84a3ab111ea7",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "Recarga",
+            "PaymentMethod": "1001"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "false"
+        },
+        "Name": "9fade98d322fa1f2494b05d21ad73712",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "fa8725bb-2c67-8108-b79f-ac0d95907c68",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "Recarga",
+            "PaymentMethod": "2001"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "false"
+        },
+        "Name": "4ab3606f74e0405cb647e225d7d787bc",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "53a89f51-718d-b2dc-91ad-85e981a8348d",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "ServicioValorAgregado",
+            "PaymentMethod": "0000"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "true"
+        },
+        "Name": "3f9733a7bfaded3c9df911013bfe8b78",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "17432784-0b36-cb27-8e26-300ddcf8024c",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "Simcard",
+            "PaymentMethod": "1001"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "false"
+        },
+        "Name": "4401044888a237fdd929023cd6b7ab06",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "0cc203be-d2c8-719b-1e7e-0952876f1bcc",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "Simcard",
+            "PaymentMethod": "1201"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "false"
+        },
+        "Name": "ca5056f7448934c2ebd8c0f530db9651",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "ManageableIdentityValidation",
+            "%vlocity_namespace%__VersionNumber__c": 11,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/ManageableIdentityValidation v11",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "4b539f7e-b1d0-a697-e53b-3a68c674be35",
+        "%vlocity_namespace%__InputData__c": {
+            "Operation": "Simcard",
+            "PaymentMethod": "2001"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ValidationRequired": "false"
+        },
+        "Name": "2db7a1e2a8cc0a23f2e1b9c46f42e75f",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

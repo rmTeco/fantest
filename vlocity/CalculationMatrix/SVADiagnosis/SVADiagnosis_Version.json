@@ -1,0 +1,20 @@
+{
+    "%vlocity_namespace%__CalculationMatrixId__c": {
+        "Name": "SVADiagnosis",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/SVADiagnosis",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+    },
+    "%vlocity_namespace%__CalculationMatrixId__r.Name": "SVADiagnosis",
+    "%vlocity_namespace%__CalculationMatrixRow__c": "SVADiagnosis_Version_Rows.json",
+    "%vlocity_namespace%__CurrentStatus__c": "Active",
+    "%vlocity_namespace%__EndDateTime__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "",
+    "%vlocity_namespace%__Priority__c": 34,
+    "%vlocity_namespace%__StartDateTime__c": "2018-01-16T20:47:00.000Z",
+    "%vlocity_namespace%__VersionNumber__c": 29,
+    "Name": "SVADiagnosis v29",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/SVADiagnosis v29"
+}

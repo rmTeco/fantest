@@ -1,0 +1,50 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Order",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "%vlocity_namespace%__PriceListId__c",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Order:PriceList",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "UpsertOrderCustom3497",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "UpsertOrder",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Order",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "AccountId",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Order:AccountId",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "UpsertOrderCustom8457",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "UpsertOrder",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Order",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Order:Id",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "UpsertOrderCustom7318",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "UpsertOrder",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

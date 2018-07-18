@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "OS para validación de identidad en MACD",
+    "%vlocity_namespace%__Element__c": [
+        "Sales_MACDValidationIdentitySubmit_English_Element_DoneAction1.json",
+        "Sales_MACDValidationIdentitySubmit_English_Element_IdentityValidation1.json",
+        "Sales_MACDValidationIdentitySubmit_English_Element_IsMACDValidationIdentitySubmit.json",
+        "Sales_MACDValidationIdentitySubmit_English_Element_MACDSubmit1.json",
+        "Sales_MACDValidationIdentitySubmit_English_Element_ManageableIdentityValidation.json",
+        "Sales_MACDValidationIdentitySubmit_English_Element_SMSFailureProcess.json",
+        "Sales_MACDValidationIdentitySubmit_English_Element_SMSValidation1.json"
+    ],
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "Sales_MACDValidationIdentitySubmit_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "MACDValidationIdentitySubmit",
+    "%vlocity_namespace%__Type__c": "Sales",
+    "Name": "MACDValidationIdentitySubmit",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Sales/MACDValidationIdentitySubmit/English"
+}

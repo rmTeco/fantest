@@ -1,0 +1,48 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ta-OwnershipChanges",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Care/Ownership Changes/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 56,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "process": {
+                "aditionalMessage": "Los números de confirmación son:",
+                "aditionalMessages": {
+                    "listValues": "Orders",
+                    "params": [
+                        "AssetName",
+                        "CaseNumber"
+                    ],
+                    "text": "{0}: {1}."
+                },
+                "result": "PENDING",
+                "resultMessage": "El cambio de titularidad quedó en estado pendiente.",
+                "statusCode": "CATIT_PROCESS_OK"
+            }
+        },
+        "label": null,
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValuesProcessCompletedSuccessfully",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Care/Ownership Changes/English/SetValuesProcessCompletedSuccessfully"
+}

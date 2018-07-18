@@ -1,0 +1,34 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "NominationIDValidation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CustomerMaster/NominationIDValidation/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 1,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/CustomerMaster/NominationIDValidation/English",
+        "Name": "QAResult",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CustomerMaster/NominationIDValidation/English/QAResult",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "QAResult",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": null,
+        "show": null,
+        "text": "<table style=\"float: left;\" border=\"0\">\n<tbody>\n<tr style=\"height: 20px;\">\n<td style=\"width: 100px; height: 20px;\">Preguntas: %ValidationResult:preguntas:cantidadRespuesta%</td>\n<td style=\"width: 100px; height: 20px;\">Preguntas Correctas: %ValidationResult:preguntasCorrectas:cantidadRespuesta%</td>\n</tr>\n<tr style=\"height: 20px;\">\n<td style=\"width: 100px; height: 20px;\">Porcentaje Acierto: %ValidationResult:porcentajeAcierto:porcentajeRespuesta%</td>\n<td style=\"width: 100px; height: 20px;\">Porcentaje Acierto Obtenido: %ValidationResult:porcentajeAciertoObtenido:porcentajeRespuesta%</td>\n</tr>\n<tr style=\"height: 20px;\">\n<td style=\"width: 100px; height: 20px;\">Resultado: %ValidationResult:respuesta%</td>\n<td style=\"width: 100px; height: 20px;\">C&oacute;digo: %ValidationResult:codConsulta%</td>\n</tr>\n</tbody>\n</table>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "ResultInfo",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CustomerMaster/NominationIDValidation/English/ResultInfo"
+}

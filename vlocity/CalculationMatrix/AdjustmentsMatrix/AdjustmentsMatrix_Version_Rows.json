@@ -1,0 +1,931 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "5220e1fd-ad6f-c2df-81f8-13a8c1e837c3",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "2934d7",
+            "dataType": "Boolean",
+            "displayOrder": 4,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0K6C000003heexUAA",
+            "listValues": null,
+            "name": "Escala"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "2f27ea3e-c3d7-235c-5408-40d5f5bdde22",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "2dc37c",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0K6C000003heewUAA",
+            "listValues": null,
+            "name": "Item"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b20596ef-7550-a961-bf5c-0ba42c7611d1",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "5b7be7",
+            "dataType": "Text",
+            "displayOrder": 5,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0K6C000003heeyUAA",
+            "listValues": null,
+            "name": "TipoAjuste"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e6b95f15-6568-2aa7-686b-b680d7592267",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "69b1c3",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0K6C000003heevUAA",
+            "listValues": null,
+            "name": "TipoCargo"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "ca17b1a2-0110-1e5d-00de-c021b6efec0c",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "73bca3",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0K6C000003heeuUAA",
+            "listValues": null,
+            "name": "Concepto"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "a14a3e09-baeb-5496-6ba0-140bd8ad1099",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "CREDITO POSPAGO",
+            "Item": "Minutos/SMS",
+            "TipoCargo": "No aplica Pospago"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "true",
+            "TipoAjuste": "3"
+        },
+        "Name": "3ec9c2e88b6b7c7eb613dcba2105cd33",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "87ed31c7-41e5-3bdb-a8ec-cb1f6665b0c9",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "CREDITO POSPAGO",
+            "Item": "Renovacion cuota datos",
+            "TipoCargo": "No aplica Pospago"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "3"
+        },
+        "Name": "cedd5f7c65904d5e3878328b1b0535b5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "9202ec2e-416a-bf0b-78f7-31688e53aafd",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "CREDITO POSPAGO",
+            "Item": "Suscrip/trivias/contenidos",
+            "TipoCargo": "No aplica Pospago"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "3"
+        },
+        "Name": "963d7d84e12b9141e5ad26e8662e5a9a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "f4466c5d-54b0-f0ae-864d-a3167fb8b04a",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "CREDITO PREPAGO",
+            "Item": "Consumos de datos",
+            "TipoCargo": "No aplica Prepago"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "true",
+            "TipoAjuste": "0"
+        },
+        "Name": "776ac332d24b02ca92117b1d98006cbb",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "a058f881-03a0-e250-5b62-b55d5a81f384",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "CREDITO PREPAGO",
+            "Item": "Contestador personal",
+            "TipoCargo": "No aplica Prepago"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "0"
+        },
+        "Name": "9a537c2a017b0e0d8541f14966d904cf",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c9732d61-d2d5-d01a-db76-45d5146620a3",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "CREDITO PREPAGO",
+            "Item": "Descuento Recarga SOS",
+            "TipoCargo": "No aplica Prepago"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "0"
+        },
+        "Name": "c6c298e16896a2cd0526e7197598cc6d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "5c8396a8-84c1-2148-5fa8-33c4d728cb32",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "CREDITO PREPAGO",
+            "Item": "Fuera del area local",
+            "TipoCargo": "No aplica Prepago"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "0"
+        },
+        "Name": "7026f9470ffbf18b6f594d7479f6bc49",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "6f2a4dae-7dd3-975d-a4e8-57c7688bf886",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "CREDITO PREPAGO",
+            "Item": "Larga distancia internacional",
+            "TipoCargo": "No aplica Prepago"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "true",
+            "TipoAjuste": "0"
+        },
+        "Name": "b8a99b8b32e1963d5fd9e30f525eb06d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c1164004-6f41-480e-c966-96315c8f4642",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "CREDITO PREPAGO",
+            "Item": "Larga distancia nacional",
+            "TipoCargo": "No aplica Prepago"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "true",
+            "TipoAjuste": "0"
+        },
+        "Name": "7c825c9b990414442c6a0383e0ddc179",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "2b1cef84-e595-7f96-e3cf-5d029bcb1a04",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "CREDITO PREPAGO",
+            "Item": "No se pudo determinar motivo descuento",
+            "TipoCargo": "No aplica Prepago"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "true",
+            "TipoAjuste": "0"
+        },
+        "Name": "bce1436505a22b85b3afb0e10819bdc9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "8a6c5e66-4e1b-4d5c-06b4-1ca64da76622",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "CREDITO PREPAGO",
+            "Item": "Numeros amigos",
+            "TipoCargo": "No aplica Prepago"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "true",
+            "TipoAjuste": "0"
+        },
+        "Name": "9455ea5d975eb4846412f11d67d71c08",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b3857450-a783-3018-1a1b-1b4b70d0e39d",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "CREDITO PREPAGO",
+            "Item": "Pack",
+            "TipoCargo": "No aplica Prepago"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "true",
+            "TipoAjuste": "0"
+        },
+        "Name": "e8c610071114823b6dd88994080c9238",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "bbeaa5fe-877f-7573-56b8-83a32936c347",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "CREDITO PREPAGO",
+            "Item": "Recarga delivery",
+            "TipoCargo": "No aplica Prepago"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "0"
+        },
+        "Name": "75e12ea38f07f228b7f9b1f0193f0e84",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "42c65035-dc9c-bb67-2751-7c9310f6fbe4",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "CREDITO PREPAGO",
+            "Item": "Renovacion cuota datos",
+            "TipoCargo": "No aplica Prepago"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "0"
+        },
+        "Name": "dfeeab0dd3b0a800bc60c1c02cac36f9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "24b37493-fc97-3740-1e26-85562b05e0f8",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "CREDITO PREPAGO",
+            "Item": "Roaming fronterizo",
+            "TipoCargo": "No aplica Prepago"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "true",
+            "TipoAjuste": "0"
+        },
+        "Name": "34188d3bb6496f596e9a2266fde337c1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "2142e83a-ed2e-b9dc-9d2b-2ad6066aa07c",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "CREDITO PREPAGO",
+            "Item": "Roaming internacional",
+            "TipoCargo": "No aplica Prepago"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "true",
+            "TipoAjuste": "0"
+        },
+        "Name": "de2eddf42017d5022f80030ca26473c9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "f435c2ac-6f20-f96f-114f-6447780ea486",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "CREDITO PREPAGO",
+            "Item": "Suscripciones / Contenidos / Trivias",
+            "TipoCargo": "No aplica Prepago"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "0"
+        },
+        "Name": "66cfbf03c922f486e4f5310ee58ffadd",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b611275c-7cde-9869-5f37-8978f16fcaa8",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Abono roaming / proteccion personal / Servicio BB / Otros SVA",
+            "TipoCargo": "Cargos fijos facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "1"
+        },
+        "Name": "584355d81ba5712d9b50ad52337fa95e",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "ef265e9d-7ab8-0b11-f5c6-993963b03b48",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Abono/proporcional",
+            "TipoCargo": "Cargos fijos facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "1"
+        },
+        "Name": "e5f834142fd80da2bd0ae85a9c53f548",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "6c944ce6-f9e2-f2ec-b84e-2590aef4d5e7",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Cambio de condicion impositiva",
+            "TipoCargo": "Tipo de comprobante"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "1"
+        },
+        "Name": "2b9d4b3af8c7ccc0be0eb57a89211c5a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "353374d7-dd3e-e36d-1650-22f9e2119fbe",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Cargo de reconexi�n",
+            "TipoCargo": "Otros cargos facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "1"
+        },
+        "Name": "a493161771cdae677ef862ac46514cfd",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "446cb5e5-6351-6b1e-cdfb-b9d30945b160",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Cargo por penalidad baja anticipada / cambio de plan / mercado",
+            "TipoCargo": "Otros cargos facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "1"
+        },
+        "Name": "86aaf9bd1de189a6cfd4ce4bb32d36b4",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "75812b23-62a1-0339-1e78-5ec96f2cd81a",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Cliente no reconoce linea",
+            "TipoCargo": "Cargos fijos facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "null"
+        },
+        "Name": "cf2714a32d06e27a682e8a7221c34e37",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "64c5abc4-dafb-961c-6fdd-6c8cf214db0d",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Consumos de datos",
+            "TipoCargo": "Cargos variables facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "true",
+            "TipoAjuste": "1"
+        },
+        "Name": "922ea27bfec7e82872428113ad8516ed",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "2144c387-2304-d3be-b1b4-2de66dac506c",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Cuota de equipo",
+            "TipoCargo": "Otros cargos facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "1"
+        },
+        "Name": "ffd373bc7831628699d88274877c6be7",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "700d97f1-a969-42d9-307a-f33721400eb3",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Cuotas de convenio de pago",
+            "TipoCargo": "Otros cargos facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "1"
+        },
+        "Name": "c698f801f87a002b6c53963895f4b0e1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "bb937f44-87f8-8de4-2507-f7677235abb9",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Minutos/SMS",
+            "TipoCargo": "Cargos variables facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "true",
+            "TipoAjuste": "1"
+        },
+        "Name": "39c5b23ac8f16d4472a94bafee302a94",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "0351c9d6-ff94-602a-e654-81daa7de77ea",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Numero Amigo/Grupo Fliar",
+            "TipoCargo": "Cargos variables facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "true",
+            "TipoAjuste": "1"
+        },
+        "Name": "ac1d783fda64d1514055b04e0ec9f01a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "3e72d7af-5f24-56b9-a459-da39856c81ac",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Pack",
+            "TipoCargo": "Cargos fijos facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "1"
+        },
+        "Name": "dce092e9b75f283483b3bb165439abcc",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "6fdefb9d-a1d6-27a4-8e17-0ee1376e1337",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Recarga inicial",
+            "TipoCargo": "Otros cargos facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "1"
+        },
+        "Name": "1f311394ad74a7efbc987e17e63574a4",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c3d2b9ab-49fb-8187-d286-8ffaeabe753a",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Renovacion cuota datos",
+            "TipoCargo": "Cargos variables facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "1"
+        },
+        "Name": "e9206b920828db509e25c2aa99e1dbb8",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "9d5ae089-a11b-0e35-786a-081ca7504a15",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Roaming fronterizo",
+            "TipoCargo": "Cargos variables facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "true",
+            "TipoAjuste": "1"
+        },
+        "Name": "2cc698fa335f1a71074f315d7da01719",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "9557d7a2-f4ff-139c-b4ad-79aea7526cd1",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Roaming internacional",
+            "TipoCargo": "Cargos variables facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "true",
+            "TipoAjuste": "1"
+        },
+        "Name": "e9cdf85deba2ac99520adc091a09bd38",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "376baaf1-ff15-9ea8-62c0-454009c19bf9",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Solicitudes administrativas (cbio tit, numero, transf de credito, etc)",
+            "TipoCargo": "Otros cargos facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "1"
+        },
+        "Name": "723b3ed27e4701948b3b72ed39befc6d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "384e55d2-10ff-af58-88e6-54ce09a9894f",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Stop Personal",
+            "TipoCargo": "Cargos variables facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "true",
+            "TipoAjuste": "1"
+        },
+        "Name": "f5cb3b788a2d2400f24ea3ca16a8b8b6",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "fdd42e08-9385-e7d4-81fa-8157a2a655b4",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "Suscripciones / Contenidos / Trivias",
+            "TipoCargo": "Cargos variables facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "false",
+            "TipoAjuste": "1"
+        },
+        "Name": "4a2626e21320f9414340e9479ac089c5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "6cbde8fe-ee7e-f0eb-ceec-8f8f744e9737",
+        "%vlocity_namespace%__InputData__c": {
+            "Concepto": "FACTURA EMITIDA",
+            "Item": "WIN/Pooling/Interflota",
+            "TipoCargo": "Cargos variables facturados"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Escala": "true",
+            "TipoAjuste": "1"
+        },
+        "Name": "fe5d2ce34e5ad9b1254427c6eab6eae3",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

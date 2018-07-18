@@ -1,0 +1,20 @@
+{
+    "%vlocity_namespace%__CalculationMatrixId__c": {
+        "Name": "RAVExceptionMatrix",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/RAVExceptionMatrix",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+    },
+    "%vlocity_namespace%__CalculationMatrixId__r.Name": "RAVExceptionMatrix",
+    "%vlocity_namespace%__CalculationMatrixRow__c": "RAVExceptionMatrix_Version_Rows.json",
+    "%vlocity_namespace%__CurrentStatus__c": "Active",
+    "%vlocity_namespace%__EndDateTime__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "f777d777-1dda-ead9-9d2c-a767063e179a",
+    "%vlocity_namespace%__Priority__c": 1,
+    "%vlocity_namespace%__StartDateTime__c": "2018-02-08T15:42:21.000Z",
+    "%vlocity_namespace%__VersionNumber__c": 1,
+    "Name": "RAVExceptionMatrix",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/RAVExceptionMatrix"
+}

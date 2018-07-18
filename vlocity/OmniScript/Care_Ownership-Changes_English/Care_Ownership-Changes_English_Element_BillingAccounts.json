@@ -1,0 +1,102 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ta-OwnershipChanges",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Care/Ownership Changes/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 4,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Care/Ownership Changes/English",
+        "Name": "BillingAccountSelection",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Care/Ownership Changes/English/BillingAccountSelection",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "BillingAccountSelection",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "ta-care-radio-button-list",
+        "accessibleInFutureSteps": true,
+        "customOptions": {
+            "addNewItem": {
+                "allow": "AllowNewBillingAccount",
+                "text": "Nueva cuenta"
+            },
+            "childrenList": {
+                "collectionValues": "Assets",
+                "headerText": "Ver servicios contratados",
+                "params": [
+                    {
+                        "fieldName": "Name"
+                    }
+                ],
+                "text": "{0}"
+            },
+            "fields": [
+                {
+                    "emptyTextMessage": "No posee dirección de facturación",
+                    "params": [
+                        {
+                            "fieldName": "BillingStreet"
+                        }
+                    ],
+                    "text": "{0}"
+                }
+            ],
+            "filters": [
+                {
+                    "condition": "Is Equal To",
+                    "field": "TotalInvalidAssets",
+                    "value": "0"
+                }
+            ],
+            "header": {
+                "params": [
+                    {
+                        "fieldName": "Name"
+                    }
+                ],
+                "text": "Cuenta: {0}"
+            },
+            "radioGroupLabel": "Seleccioná la cuenta destino:",
+            "selectedItemPath": "selectedBillingAccount"
+        },
+        "dataJSON": false,
+        "itemsKey": "recSet",
+        "label": null,
+        "maxCompareSize": 4,
+        "modalConfigurationSetting": {
+            "modalController": "ModalProductCtrl",
+            "modalHTMLTemplateId": "vlcProductConfig.html",
+            "modalSize": "lg"
+        },
+        "modalController": "ModalInstanceCtrl",
+        "modalHTMLTemplateId": "vlcModalContent.html",
+        "modalSize": "",
+        "postTransformBundle": "",
+        "preTransformBundle": "",
+        "remoteClass": "",
+        "remoteMethod": "",
+        "remoteOptions": {
+            "postTransformBundle": "",
+            "preTransformBundle": ""
+        },
+        "remoteTimeout": 30000,
+        "required": true,
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "selectMode": "Single",
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Selectable Items",
+    "Name": "BillingAccounts",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Care/Ownership Changes/English/BillingAccounts"
+}

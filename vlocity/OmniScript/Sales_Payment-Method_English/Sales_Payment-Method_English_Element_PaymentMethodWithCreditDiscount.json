@@ -1,0 +1,68 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__Level__c": 2,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "PaymentMethod",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 3,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English",
+        "Name": "PaymentMethodsO",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English/PaymentMethodsO",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "PaymentMethodsO",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": true,
+        "label": "Medio de pago",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "ta_sales_paymentMethod.getPaymentMethodsWithCreditDiscount",
+            "type": "Custom"
+        },
+        "optionWidth": 100,
+        "options": [
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "CreditDiscountPaymentMethod"
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Radio",
+    "Name": "PaymentMethodWithCreditDiscount",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English/PaymentMethodWithCreditDiscount"
+}

@@ -1,0 +1,98 @@
+{
+    "body": {
+        "revertirPagosPeticion": {
+            "listaInformacionPagos": [
+                {
+                    "informacionPago": {
+                        "codAcceso": {
+                            "codAccesoCuenta": {
+                                "idCuenta": "2380001003300002"
+                            }
+                        },
+                        "codPago": "CBSAR291554",
+                        "wondersoftInfo": {
+                            "codPromoBanco": "string",
+                            "infoBanco": {
+                                "cantidadCuotasTarjeta": "string",
+                                "codEntidadFinanciera": "string",
+                                "codEntidadTC": "string",
+                                "codMedioPago": "string",
+                                "codSeguridadTarjeta": "string",
+                                "codSucursalEntidad": "string",
+                                "fechaEmisionCheque": "string",
+                                "fechaVencimientoTarjeta": "string",
+                                "nombreActor": "string",
+                                "nroCheque": "string",
+                                "nroTarjetaEncriptado": "string"
+                            },
+                            "ipOrigen": "string",
+                            "nombreActor": "string",
+                            "numeroDocumento": "string",
+                            "tipoDocumento": "string"
+                        }
+                    }
+                },
+                {
+                    "informacionPago": {
+                        "codAcceso": {
+                            "codAccesoCuenta": {
+                                "idCuenta": "2380001003300001"
+                            }
+                        },
+                        "codPago": "CBSAR291551",
+                        "wondersoftInfo": {
+                            "codPromoBanco": "string",
+                            "infoBanco": {
+                                "cantidadCuotasTarjeta": "string",
+                                "codEntidadFinanciera": "string",
+                                "codEntidadTC": "string",
+                                "codMedioPago": "string",
+                                "codSeguridadTarjeta": "string",
+                                "codSucursalEntidad": "string",
+                                "fechaEmisionCheque": "string",
+                                "fechaVencimientoTarjeta": "string",
+                                "nombreActor": "string",
+                                "nroCheque": "string",
+                                "nroTarjetaEncriptado": "string"
+                            },
+                            "ipOrigen": "string",
+                            "nombreActor": "string",
+                            "numeroDocumento": "string",
+                            "tipoDocumento": "string"
+                        }
+                    }
+                },
+                {
+                    "informacionPago": {
+                        "codAcceso": {
+                            "codAccesoCuenta": {
+                                "idCuenta": "2380001003300001"
+                            }
+                        },
+                        "codPago": "CBSAR291553",
+                        "wondersoftInfo": {
+                            "codPromoBanco": "string",
+                            "infoBanco": {
+                                "cantidadCuotasTarjeta": "string",
+                                "codEntidadFinanciera": "string",
+                                "codEntidadTC": "string",
+                                "codMedioPago": "string",
+                                "codSeguridadTarjeta": "string",
+                                "codSucursalEntidad": "string",
+                                "fechaEmisionCheque": "string",
+                                "fechaVencimientoTarjeta": "string",
+                                "nombreActor": "string",
+                                "nroCheque": "string",
+                                "nroTarjetaEncriptado": "string"
+                            },
+                            "ipOrigen": "string",
+                            "nombreActor": "string",
+                            "numeroDocumento": "string",
+                            "tipoDocumento": "string"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

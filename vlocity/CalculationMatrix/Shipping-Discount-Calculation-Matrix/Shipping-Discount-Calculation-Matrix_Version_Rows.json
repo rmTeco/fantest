@@ -1,0 +1,239 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Shipping Discount Calculation Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Shipping Discount Calculation Matrix V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "715088",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0K6C000003hatmUAA",
+            "listValues": null,
+            "name": "Canal"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Shipping Discount Calculation Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Shipping Discount Calculation Matrix V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "bd8d71",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0K6C000003hatlUAA",
+            "listValues": null,
+            "name": "Operacion"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Shipping Discount Calculation Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Shipping Discount Calculation Matrix V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "ce2bf",
+            "dataType": "Percent",
+            "displayOrder": 3,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0K6C000003hatkUAA",
+            "listValues": null,
+            "name": "Bonificacion"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Shipping Discount Calculation Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Shipping Discount Calculation Matrix V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Canal": "Ecommerce",
+            "Operacion": "Accesorios"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Bonificacion": 100
+        },
+        "Name": "16c042087fe12f103794e56204b492e5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Shipping Discount Calculation Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Shipping Discount Calculation Matrix V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Canal": "Ecommerce",
+            "Operacion": "Alta"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Bonificacion": 100
+        },
+        "Name": "2b2de5e881baf7baf0bda27c99580e1f",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Shipping Discount Calculation Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Shipping Discount Calculation Matrix V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Canal": "Ecommerce",
+            "Operacion": "Cater"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Bonificacion": 100
+        },
+        "Name": "50530895b0b86a6d6f64f0fa737c1491",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Shipping Discount Calculation Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Shipping Discount Calculation Matrix V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Canal": "Ecommerce",
+            "Operacion": "Portin"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Bonificacion": 100
+        },
+        "Name": "8bbba8580cff849e304668ba93ec1bf0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Shipping Discount Calculation Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Shipping Discount Calculation Matrix V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Canal": "Telefónico",
+            "Operacion": "Accesorios"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Bonificacion": 90
+        },
+        "Name": "f1affcf5b669fa9e1347c1498bb38a6a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Shipping Discount Calculation Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Shipping Discount Calculation Matrix V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Canal": "Telefónico",
+            "Operacion": "Alta"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Bonificacion": 50
+        },
+        "Name": "8069448c81361304c36c184695044e5f",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Shipping Discount Calculation Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Shipping Discount Calculation Matrix V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Canal": "Telefónico",
+            "Operacion": "Cater"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Bonificacion": 100
+        },
+        "Name": "40951cf2bdb72e84367a633090080396",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Shipping Discount Calculation Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Shipping Discount Calculation Matrix V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Canal": "Televentas",
+            "Operacion": "Alta"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Bonificacion": 50
+        },
+        "Name": "3562ff8faf7f4f7a9322fe20bff59769",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Shipping Discount Calculation Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Shipping Discount Calculation Matrix V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Canal": "Televentas",
+            "Operacion": "Cater"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Bonificacion": 100
+        },
+        "Name": "93c6ae31e9a0e3926abdc72a45d4ef05",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

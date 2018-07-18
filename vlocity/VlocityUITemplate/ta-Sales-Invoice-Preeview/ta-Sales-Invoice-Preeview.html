@@ -1,0 +1,29 @@
+<div class="slds-col" ng-if="bpTree.response.BillingOrder.Items" ng-controller="InvoiceController as vm">
+	<div class="header-simulation">
+		<div class="slds-text-body--small header-title">Total a pagar</div>
+		<div class="slds-truncate total">{{ vm.total | currency:"ARS " }}</div>
+	</div>
+	<div class="body-simulation slds-col">
+	    
+		<div ng-repeat="item in vm.items" class="items-row">
+		    <div class="slds-truncate">{{item.Quantity}} x {{item.%vlocity_namespace%__Product2Id__r.Name}}</div>
+		    <div class="slds-truncate">{{ (vm.taxes[$index].infoImpuestos[0].precioBase) | currency:"ARS " }}</div>
+		</div>
+        
+		<div class="items-row">
+		    <div class="slds-truncate">Impuestos </div>
+		    <div class="slds-truncate">{{ vm.totalTaxes | currency:"ARS " }} </div>
+		</div>
+		
+		<div class="items-row">
+		    <div class="slds-truncate">Subtotal</div> 				
+		    <div class="slds-truncate">{{ vm.totalBeforeTaxes | currency:"ARS " }}</div>
+        </div>
+		
+		<div ng-if="bpTree.response.CalculateInterest_Response.CFT"   class="items-row">
+		    <div class="slds-truncate">Cargos financiación (Calculado al {{ bpTree.response.CalculateInterest_Response.CFT }} % )</div>
+		    <div class="slds-truncate">{{ bpTree.response.CalculateInterest_Response.Interest | currency:"ARS " }}</div>
+		</div>
+        
+	</div>
+</div>

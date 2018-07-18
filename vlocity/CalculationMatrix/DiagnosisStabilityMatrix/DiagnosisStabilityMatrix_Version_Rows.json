@@ -1,0 +1,239 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisStabilityMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisStabilityMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "26abba",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0K6C000003haz6UAA",
+            "listValues": null,
+            "name": "PrimerDia"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisStabilityMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisStabilityMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "5199b1",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0K6C000003haz5UAA",
+            "listValues": null,
+            "name": "Resultado"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisStabilityMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisStabilityMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "8e1860",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0K6C000003haz7UAA",
+            "listValues": null,
+            "name": "RangoDias"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisStabilityMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisStabilityMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "PrimerDia": "ESTABLE",
+            "RangoDias": "ESTABLE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Resultado": "Estable"
+        },
+        "Name": "6a95ce39cffa223c54aa06e8964e8ed2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisStabilityMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisStabilityMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "PrimerDia": "ESTABLE",
+            "RangoDias": "INESTABLE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Resultado": "Inestable"
+        },
+        "Name": "6547e56a9d1942dd3698cad23eb532f5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisStabilityMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisStabilityMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "PrimerDia": "ESTABLE",
+            "RangoDias": "SIN_SESION"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Resultado": "Sin Datos"
+        },
+        "Name": "2b0cf7f01fccd065afa934b22d2d5819",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisStabilityMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisStabilityMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "PrimerDia": "INESTABLE",
+            "RangoDias": "ESTABLE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Resultado": "Inestable"
+        },
+        "Name": "bf15f0b3ce9b989cdd81e3447660054b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisStabilityMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisStabilityMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "PrimerDia": "INESTABLE",
+            "RangoDias": "INESTABLE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Resultado": "Inestable"
+        },
+        "Name": "d90a675cc7331704b09990a6b5088aef",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisStabilityMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisStabilityMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "PrimerDia": "INESTABLE",
+            "RangoDias": "SIN_SESION"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Resultado": "Sin Datos"
+        },
+        "Name": "af9b578493aaf78154466ba87af90cac",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisStabilityMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisStabilityMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "PrimerDia": "SIN_SESION",
+            "RangoDias": "ESTABLE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Resultado": "Sin Datos"
+        },
+        "Name": "2e35eb3d0d228f0f73c7372b68cc2399",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisStabilityMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisStabilityMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "PrimerDia": "SIN_SESION",
+            "RangoDias": "INESTABLE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Resultado": "Sin Datos"
+        },
+        "Name": "bf8011dd8a7e76105b121c35c8f74edd",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisStabilityMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisStabilityMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "PrimerDia": "SIN_SESION",
+            "RangoDias": "SIN_SESION"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Resultado": "Sin Datos"
+        },
+        "Name": "b425227309305e567a9c740a3921fb29",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

@@ -1,0 +1,14 @@
+{
+    "Case": {
+        "AccountId": "",
+        "Amount": "",
+        "Id": "",
+        "ResolutionComment": "",
+        "ServiceId": "",
+        "Status": "",
+        "Subject": "",
+        "Tipo": "",
+        "TipoConcepto": "",
+        "Type": ""
+    }
+}

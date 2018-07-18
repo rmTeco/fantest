@@ -1,0 +1,17 @@
+{
+    "Case": {
+        "AccountId": "0016C000009HjcRQAS",
+        "AssetId": "02i6C0000002Y1SQAU",
+        "AvailableQuota": 57,
+        "CurrentBalance": 200,
+        "Id": "5006C0000019nzEQAQ",
+        "Incident": "No puedo navegar",
+        "NoCoverage": true,
+        "PremisesId": "a2K6C0000000elfUAA",
+        "RecordType": "Diagnosis",
+        "Status": "Closed",
+        "SubType": "Voz y Datos",
+        "Subject": "Diagnóstico de Servicio de Datos",
+        "Type": "Diagnóstico Servicio Voz/Datos"
+    }
+}

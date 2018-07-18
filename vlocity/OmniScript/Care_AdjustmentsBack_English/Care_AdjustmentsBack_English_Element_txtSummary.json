@@ -1,0 +1,66 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ta-care-Adjustments-Back",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Care/AdjustmentsBack/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 2,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Care/AdjustmentsBack/English",
+        "Name": "Step-Summary",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Care/AdjustmentsBack/English/Step-Summary",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Step-Summary",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "cancelLabel": "Cancel",
+        "cancelMessage": "Are you sure?",
+        "completeLabel": "Complete",
+        "completeMessage": "Are you sure you want to complete the script?",
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "currencySymbol": "$",
+        "dataJSON": false,
+        "dateFormat": "MM-dd-yyyy",
+        "hide": false,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "knowledgeOptions": {
+            "dataCategoryCriteria": "",
+            "keyword": "",
+            "language": "English",
+            "publishStatus": "Online",
+            "remoteTimeout": 30000
+        },
+        "label": "TextBlock3",
+        "nextLabel": "Next",
+        "nextWidth": 3,
+        "previousLabel": "Previous",
+        "previousWidth": 3,
+        "remoteOptions": {
+        },
+        "remoteTimeout": 30000,
+        "saveLabel": "Save for later",
+        "saveMessage": "Are you sure you want to save it for later?",
+        "show": null,
+        "showInputWidth": false,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "text": "<p>Al confirmar se realizar&aacute; el siguiente ajuste:</p>\n<ul>\n<li><strong>Tipo Gesti&oacute;n </strong>%Case:Subject%</li>\n<li><strong>Concepto</strong>&nbsp;%Case:TipoConcepto%</li>\n<li><strong>Cargo&nbsp;</strong>%Case:Tipo%</li>\n<li><strong>Item </strong>%Case:TipoItem%</li>\n<li><strong>Motivo </strong>%Case:Motivo%</li>\n<li><strong>Monto/Cantidad</strong>&nbsp;%FinalAmount% %Unidad%</li>\n<li><strong>Desde</strong> %Desde% <strong>hasta</strong> %Hasta%</li>\n</ul>",
+        "validationRequired": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "txtSummary",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Care/AdjustmentsBack/English/txtSummary"
+}

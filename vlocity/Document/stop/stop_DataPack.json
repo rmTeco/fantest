@@ -1,0 +1,17 @@
+{
+    "Body": "File_stop.png",
+    "BodyLength": 1249,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "stop",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "stop",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/stop"
+}

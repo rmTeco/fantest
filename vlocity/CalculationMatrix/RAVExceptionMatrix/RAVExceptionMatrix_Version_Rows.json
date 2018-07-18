@@ -1,0 +1,249 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RAVExceptionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/RAVExceptionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "31081379-aaee-75b0-358c-d60209bbd9f2",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "4d7047",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Tipodeajuste"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RAVExceptionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/RAVExceptionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "f4f305a6-067b-e317-4094-93f7b8293d10",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "80cad5",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Segmento"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RAVExceptionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/RAVExceptionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "04519b9d-1f7c-b99a-28e2-fb0f4191278c",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "8b394a",
+            "dataType": "Text",
+            "displayOrder": 4,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "EquipoRevisor"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RAVExceptionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/RAVExceptionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "92f8fc7c-6f0e-a3fa-9c00-55bda17009df",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "b39b02",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "PerfilAprobador"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RAVExceptionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/RAVExceptionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b9d22b5c-3437-cddc-24a1-7df3486197c2",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "e75b98",
+            "dataType": "Number Range",
+            "displayOrder": 5,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": "0,500,1500,3000,7500,15000",
+            "name": "Monto"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RAVExceptionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/RAVExceptionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "94bd435c-0deb-4f94-7651-1f1ec298d985",
+        "%vlocity_namespace%__InputData__c": {
+            "Monto": "0",
+            "Segmento": "Default",
+            "Tipodeajuste": "Credito"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "EquipoRevisor": "Ninguno",
+            "PerfilAprobador": "Representante"
+        },
+        "Name": "2600c419b3b2953bf6e3d640d394ac80",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RAVExceptionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/RAVExceptionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "7e09fff4-e82d-52cb-82ba-bffedce2af67",
+        "%vlocity_namespace%__InputData__c": {
+            "Monto": "1500",
+            "Segmento": "Default",
+            "Tipodeajuste": "Credito"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "EquipoRevisor": "Back Office",
+            "PerfilAprobador": "TA - Gerente 2da Dependencia"
+        },
+        "Name": "1b96a910e5fa043e92114d078c883c6a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RAVExceptionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/RAVExceptionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e8f28e79-7e77-6841-617b-645ef2faf6e8",
+        "%vlocity_namespace%__InputData__c": {
+            "Monto": "15000",
+            "Segmento": "Default",
+            "Tipodeajuste": "Credito"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "EquipoRevisor": "Back Office",
+            "PerfilAprobador": "Director"
+        },
+        "Name": "22578162525c663c2979cc143a5018f8",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RAVExceptionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/RAVExceptionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "3de2d756-0acc-e259-056c-fb4b7d83b936",
+        "%vlocity_namespace%__InputData__c": {
+            "Monto": "3000",
+            "Segmento": "Default",
+            "Tipodeajuste": "Credito"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "EquipoRevisor": "Back Office",
+            "PerfilAprobador": "TA - Gerente 1ra Dependencia"
+        },
+        "Name": "42f5fd38fd645c37cf8b227db6e579fb",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RAVExceptionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/RAVExceptionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "3dbf19b8-2fda-aa73-8c17-5b9e9e879473",
+        "%vlocity_namespace%__InputData__c": {
+            "Monto": "500",
+            "Segmento": "Default",
+            "Tipodeajuste": "Credito"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "EquipoRevisor": "Ninguno",
+            "PerfilAprobador": "Back Office"
+        },
+        "Name": "bb1ea81332f07d9266e318d567134fa9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RAVExceptionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/RAVExceptionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "15ba5252-9dc2-c749-66d8-09cb6d7c85c9",
+        "%vlocity_namespace%__InputData__c": {
+            "Monto": "7500",
+            "Segmento": "Default",
+            "Tipodeajuste": "Credito"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "EquipoRevisor": "Back Office",
+            "PerfilAprobador": "Director"
+        },
+        "Name": "6452ca02bae106195db684bb34ee5ab5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

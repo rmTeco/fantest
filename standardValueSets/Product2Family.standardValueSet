@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Datos</fullName>
+        <default>false</default>
+        <label>Datos</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ICT</fullName>
+        <default>false</default>
+        <label>ICT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Datacenter</fullName>
+        <default>false</default>
+        <label>Datacenter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Voz</fullName>
+        <default>false</default>
+        <label>Voz</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Móvil</fullName>
+        <default>false</default>
+        <label>Móvil</label>
+    </standardValue>
+</StandardValueSet>

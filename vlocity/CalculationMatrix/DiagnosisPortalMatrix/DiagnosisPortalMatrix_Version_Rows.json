@@ -1,0 +1,118 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisPortalMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisPortalMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "d1740d",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0K6C000003hasiUAA",
+            "listValues": null,
+            "name": "Resultado"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisPortalMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisPortalMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "f563bc",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0K6C000003hashUAA",
+            "listValues": null,
+            "name": "Parametro"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisPortalMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisPortalMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Parametro": "0"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Resultado": "Sesión Activa"
+        },
+        "Name": "e9573c4cf0c80c59c214089646716b15",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisPortalMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisPortalMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Parametro": "100"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Resultado": "Portales Cautivos 100"
+        },
+        "Name": "eb75b0ba1879a7e7212b46884d3e739f",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisPortalMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisPortalMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Parametro": "101"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Resultado": "Portales Cautivos 101"
+        },
+        "Name": "85ba0a7a54f16fcac1fc29bf4d5ba141",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DiagnosisPortalMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DiagnosisPortalMatrix v2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Parametro": "102"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Resultado": "Portales Cautivos 102"
+        },
+        "Name": "e1532bd3722574f9acab5ed64fdf5e71",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

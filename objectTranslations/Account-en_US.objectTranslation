@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Opportunities --></label>
+        <name>SCP_Certa_GC__Brand_Opportunities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Strengths --></label>
+        <name>SCP_Certa_GC__Brand_Strengths__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Threats --></label>
+        <name>SCP_Certa_GC__Brand_Threats__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Weakness --></label>
+        <name>SCP_Certa_GC__Brand_Weakness__c</name>
+    </fields>
+    <fields>
+        <label><!-- Política de Compras Last Update --></label>
+        <name>SCP_Certa_GC__Buying_Criteria_Last_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Política de Compras --></label>
+        <name>SCP_Certa_GC__Buying_Criteria__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Current Year --></label>
+        <name>SCP_Certa_GC__CSAT_Current_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Last Year --></label>
+        <name>SCP_Certa_GC__CSAT_Last_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Second To Last Year --></label>
+        <name>SCP_Certa_GC__CSAT_Second_To_Last_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Unit --></label>
+        <name>SCP_Certa_GC__CSAT_Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- CUIT --></label>
+        <name>SCP_Certa_GC__CUIT_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- CUIT --></label>
+        <name>SCP_Certa_GC__CUIT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Categoría WH --></label>
+        <name>SCP_Certa_GC__Categoria__c</name>
+        <picklistValues>
+            <masterLabel>DG</masterLabel>
+            <translation><!-- DG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EI</masterLabel>
+            <translation><!-- EI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EO</masterLabel>
+            <translation><!-- EO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ET</masterLabel>
+            <translation><!-- ET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO</masterLabel>
+            <translation><!-- FO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FT</masterLabel>
+            <translation><!-- FT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation><!-- MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OO</masterLabel>
+            <translation><!-- OO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OP</masterLabel>
+            <translation><!-- OP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PI</masterLabel>
+            <translation><!-- PI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO</masterLabel>
+            <translation><!-- PO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PP</masterLabel>
+            <translation><!-- PP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT</masterLabel>
+            <translation><!-- PT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RP</masterLabel>
+            <translation><!-- RP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ST</masterLabel>
+            <translation><!-- ST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TT</masterLabel>
+            <translation><!-- TT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cuenta Para Los Graficos --></label>
+        <name>SCP_Certa_GC__Cuenta_Para_Los_Graficos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Domicilio de recepción de notificaciones --></label>
+        <name>SCP_Certa_GC__DomicilioRecepcionNotificaciones__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Analysts vision --></label>
+        <name>SCP_Certa_GC__External_Analysts_vision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Holding --></label>
+        <name>SCP_Certa_GC__Holding_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Cliente --></label>
+        <name>SCP_Certa_GC__ID_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subsector --></label>
+        <name>SCP_Certa_GC__Micro_Industry__c</name>
+        <picklistValues>
+            <masterLabel>Agro, Pesca y Forestación</masterLabel>
+            <translation>Agricultural, Fishing &amp; Foresting</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agua y Saneamientos</masterLabel>
+            <translation>Water works</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alimentos y Bebidas</masterLabel>
+            <translation>Food &amp; Beverage</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Almacenamiento</masterLabel>
+            <translation>Storing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alquiler de bienes</masterLabel>
+            <translation>Leasing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automotor de Carga</masterLabel>
+            <translation>Land shipping</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automotor de Pasajeros</masterLabel>
+            <translation>Land passenger transportation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automotores y Camiones</masterLabel>
+            <translation>Cars &amp; Trucks</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aéreo de Carga</masterLabel>
+            <translation>Air freight</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aéreo de Pasajeros</masterLabel>
+            <translation>Airlines</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banca</masterLabel>
+            <translation>Banking</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Centers</masterLabel>
+            <translation>Call Center</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centros Comerciales</masterLabel>
+            <translation>Shopping Centers</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Combustibles y Lubricantes</masterLabel>
+            <translation>Oil &amp; Lubricants</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construccion</masterLabel>
+            <translation>Construction</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contenido Multimedia</masterLabel>
+            <translation>Multimedia content</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooperativa</masterLabel>
+            <translation>Co-operatives</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defensa y Seguridad Pública</masterLabel>
+            <translation>Defense &amp; Public Security</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desarrollo de Sistemas</masterLabel>
+            <translation>Software Development</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droguerías</masterLabel>
+            <translation>Drugs distributors</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Educacion</masterLabel>
+            <translation>Educations</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electricas</masterLabel>
+            <translation>Electricity utilities</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Esparcimiento Cultural y Deportivo</masterLabel>
+            <translation>Cultural &amp; Sports Entertainment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ferroviario de Carga</masterLabel>
+            <translation>Train shipping</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ferroviario de Pasajeros</masterLabel>
+            <translation>Train transportation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fluvial / Marítimo de Carga</masterLabel>
+            <translation>River/Sea Freight</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fluvial / Marítimo de Pasajeros</masterLabel>
+            <translation>River/Sea Passengers Transportation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas</masterLabel>
+            <translation><!-- Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gastronomía</masterLabel>
+            <translation>Food &amp; Beverage</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gobierno Municipal</masterLabel>
+            <translation>Municipal/County Goverment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gobierno Nacional</masterLabel>
+            <translation>National/Federal Goverment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gobierno Provincial</masterLabel>
+            <translation>Provincial/State Goverment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grupo Telefonica</masterLabel>
+            <translation>Telefónica Group</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware Tecnológico</masterLabel>
+            <translation>IT Hardware</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hotelería</masterLabel>
+            <translation>Hoteling</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industria Alimentos</masterLabel>
+            <translation>Food Industry</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industria Automotriz y Autopartes</masterLabel>
+            <translation>Auto and Autoparts Industry</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industria Ligera y Manufacturas</masterLabel>
+            <translation>Light &amp; Manufacturing Industry</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industria Metalurgica y Pesada</masterLabel>
+            <translation>Heavy &amp; Metal Industry</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industria Química</masterLabel>
+            <translation>Chemical Industry</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industria Textil y Calzado</masterLabel>
+            <translation>Garment Industry</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inmobiliario</masterLabel>
+            <translation>Real State</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instituciones financieras no bancarias</masterLabel>
+            <translation>Non-banking financials institutions</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laboratorios</masterLabel>
+            <translation>Laboratories</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medios de Pago</masterLabel>
+            <translation>Means of payment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mensajería y Paquetería</masterLabel>
+            <translation>Courier &amp; Messenger</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mineria</masterLabel>
+            <translation>Mining</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organizaciones No Gubernamentales (ONGs)</masterLabel>
+            <translation>Non-Govemental Organizations</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros Administracion publica</masterLabel>
+            <translation>Public Administration (Other)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros Comercios</masterLabel>
+            <translation>Commerce (Other)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros Industria</masterLabel>
+            <translation>Other Industries</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros Servicios</masterLabel>
+            <translation>Other Services</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petroleo y Gas</masterLabel>
+            <translation>Oil &amp; Gas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residuos y Reciclaje</masterLabel>
+            <translation>Waste &amp; Recycling Management</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salud</masterLabel>
+            <translation>Health</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seguridad Privada</masterLabel>
+            <translation>Private Security</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seguros</masterLabel>
+            <translation>Insurance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicios Profesionales y Consultoría</masterLabel>
+            <translation>Professional &amp; Consulting Services</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software</masterLabel>
+            <translation><!-- Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supermercados</masterLabel>
+            <translation>Supermarkets</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telcos e Internet</masterLabel>
+            <translation>Telecom &amp; Internet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Textil y Calzado</masterLabel>
+            <translation>Garment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tienda Departamental</masterLabel>
+            <translation>Department Store</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Todos</masterLabel>
+            <translation>All</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turismo</masterLabel>
+            <translation>Tourism</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Numero de Cliente --></label>
+        <name>SCP_Certa_GC__Numero_de_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numero de Holding --></label>
+        <name>SCP_Certa_GC__Numero_de_Holding__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Opportunities --></label>
+        <name>SCP_Certa_GC__Other_Opportunities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Strengths --></label>
+        <name>SCP_Certa_GC__Other_Strengths__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Threats --></label>
+        <name>SCP_Certa_GC__Other_Threats__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Weakness --></label>
+        <name>SCP_Certa_GC__Other_Weakness__c</name>
+    </fields>
+    <fields>
+        <label><!-- People Opportunities --></label>
+        <name>SCP_Certa_GC__People_Opportunities__c</name>
+    </fields>
+    <fields>
+        <label><!-- People Strengths --></label>
+        <name>SCP_Certa_GC__People_Strengths__c</name>
+    </fields>
+    <fields>
+        <label><!-- People Threats --></label>
+        <name>SCP_Certa_GC__People_Threats__c</name>
+    </fields>
+    <fields>
+        <label><!-- People Weakness --></label>
+        <name>SCP_Certa_GC__People_Weakness__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segmento --></label>
+        <name>SCP_Certa_GC__PicklistSegmento__c</name>
+        <picklistValues>
+            <masterLabel>Negocio Corporativo</masterLabel>
+            <translation><!-- Negocio Corporativo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wholesale</masterLabel>
+            <translation><!-- Wholesale --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Products/Services Opportunities --></label>
+        <name>SCP_Certa_GC__Products_Services_Opportunities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Products/Services Strengths --></label>
+        <name>SCP_Certa_GC__Products_Services_Strengths__c</name>
+    </fields>
+    <fields>
+        <label><!-- Products/Services Threats --></label>
+        <name>SCP_Certa_GC__Products_Services_Threats__c</name>
+    </fields>
+    <fields>
+        <label><!-- Products/Services Weakness --></label>
+        <name>SCP_Certa_GC__Products_Services_Weakness__c</name>
+    </fields>
+    <fields>
+        <label><!-- Razón Social --></label>
+        <name>SCP_Certa_GC__Razon_Social__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region WH --></label>
+        <name>SCP_Certa_GC__Region_WH__c</name>
+        <picklistValues>
+            <masterLabel>Grandes Operadores</masterLabel>
+            <translation><!-- Grandes Operadores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interior</masterLabel>
+            <translation><!-- Interior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internacional</masterLabel>
+            <translation><!-- Internacional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prestadores</masterLabel>
+            <translation><!-- Prestadores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telefonía</masterLabel>
+            <translation><!-- Telefonía --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Región SCP --></label>
+        <name>SCP_Certa_GC__Region__c</name>
+        <relationshipLabel><!-- Cuentas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>SCP_Certa_GC__Region_delta__c</name>
+        <picklistValues>
+            <masterLabel>Gobierno</masterLabel>
+            <translation><!-- Gobierno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Privado</masterLabel>
+            <translation><!-- Privado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pymes</masterLabel>
+            <translation><!-- Pymes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ámbito --></label>
+        <name>SCP_Certa_GC__Sector__c</name>
+        <picklistValues>
+            <masterLabel>Privado</masterLabel>
+            <translation>Private</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Público</masterLabel>
+            <translation>Public</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Segmento Vertical --></label>
+        <name>SCP_Certa_GC__Segmento_Vertical__c</name>
+        <picklistValues>
+            <masterLabel>Administración Pública, Defensa y Seguridad Social</masterLabel>
+            <translation><!-- Administración Pública, Defensa y Seguridad Social --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agricultura, Ganadería, Caza y Silvicultura</masterLabel>
+            <translation><!-- Agricultura, Ganadería, Caza y Silvicultura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asociaciones e Instituciones</masterLabel>
+            <translation><!-- Asociaciones e Instituciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automotores - Autopartistas</masterLabel>
+            <translation><!-- Automotores - Autopartistas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automotores - Concesionarios</masterLabel>
+            <translation><!-- Automotores - Concesionarios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automotores - Industria Automotriz</masterLabel>
+            <translation><!-- Automotores - Industria Automotriz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construcción</masterLabel>
+            <translation><!-- Construcción --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultoras</masterLabel>
+            <translation><!-- Consultoras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Educación</masterLabel>
+            <translation><!-- Educación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entretenimiento</masterLabel>
+            <translation><!-- Entretenimiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Explotación de Minas y Canteras</masterLabel>
+            <translation><!-- Explotación de Minas y Canteras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gobierno Extranjero</masterLabel>
+            <translation><!-- Gobierno Extranjero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gobierno Municipal</masterLabel>
+            <translation><!-- Gobierno Municipal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gobierno Nacional</masterLabel>
+            <translation><!-- Gobierno Nacional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gobierno Provincial</masterLabel>
+            <translation><!-- Gobierno Provincial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industria Alimenticia</masterLabel>
+            <translation><!-- Industria Alimenticia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industria Química</masterLabel>
+            <translation><!-- Industria Química --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrias - Otro</masterLabel>
+            <translation><!-- Industrias - Otro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logística</masterLabel>
+            <translation><!-- Logística --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufactura</masterLabel>
+            <translation><!-- Manufactura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medios de Comunicación</masterLabel>
+            <translation><!-- Medios de Comunicación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petróleo</masterLabel>
+            <translation><!-- Petróleo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prestadores Servicios Públicos - Agua</masterLabel>
+            <translation><!-- Prestadores Servicios Públicos - Agua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prestadores Servicios Públicos - Correos</masterLabel>
+            <translation><!-- Prestadores Servicios Públicos - Correos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prestadores Servicios Públicos - Energía</masterLabel>
+            <translation><!-- Prestadores Servicios Públicos - Energía --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prestadores Servicios Públicos - GAS</masterLabel>
+            <translation><!-- Prestadores Servicios Públicos - GAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prestadores Servicios Públicos - Transporte</masterLabel>
+            <translation><!-- Prestadores Servicios Públicos - Transporte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salud - Clínicas, Sanatorios y Hospitales</masterLabel>
+            <translation><!-- Salud - Clínicas, Sanatorios y Hospitales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salud - Laboratorios</masterLabel>
+            <translation><!-- Salud - Laboratorios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salud - Medicina Prepaga</masterLabel>
+            <translation><!-- Salud - Medicina Prepaga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seguros</masterLabel>
+            <translation><!-- Seguros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicios - Otro</masterLabel>
+            <translation><!-- Servicios - Otro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicios Financieros</masterLabel>
+            <translation><!-- Servicios Financieros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicios Financieros - Banca</masterLabel>
+            <translation><!-- Servicios Financieros - Banca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicios Financieros - Tarjetas</masterLabel>
+            <translation><!-- Servicios Financieros - Tarjetas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicios Inmobiliarios, Empresariales y de Alquiler</masterLabel>
+            <translation><!-- Servicios Inmobiliarios, Empresariales y de Alquiler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicios de Hotelería y Restaurantes</masterLabel>
+            <translation><!-- Servicios de Hotelería y Restaurantes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicios-Otros</masterLabel>
+            <translation><!-- Servicios-Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siderurgia / Metalurgia</masterLabel>
+            <translation><!-- Siderurgia / Metalurgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tecnología</masterLabel>
+            <translation><!-- Tecnología --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecomunicaciones</masterLabel>
+            <translation><!-- Telecomunicaciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transporte</masterLabel>
+            <translation><!-- Transporte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turismo</masterLabel>
+            <translation><!-- Turismo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ultima Actualización --></label>
+        <name>SCP_Certa_GC__Strategic_Context_Last_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contexto Estratégico --></label>
+        <name>SCP_Certa_GC__Strategic_Context__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territorio --></label>
+        <name>SCP_Certa_GC__Sub_region_delta__c</name>
+        <picklistValues>
+            <masterLabel>Finanzas</masterLabel>
+            <translation><!-- Finanzas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gobierno amba 1</masterLabel>
+            <translation><!-- Gobierno amba 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gobierno amba 2</masterLabel>
+            <translation><!-- Gobierno amba 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gobierno litoral</masterLabel>
+            <translation><!-- Gobierno litoral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gobierno mediterraneo</masterLabel>
+            <translation><!-- Gobierno mediterraneo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industria</masterLabel>
+            <translation><!-- Industria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Privado litoral</masterLabel>
+            <translation><!-- Privado litoral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Privado mediterraneo</masterLabel>
+            <translation><!-- Privado mediterraneo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicios</masterLabel>
+            <translation><!-- Servicios --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Numero de Cliente --></label>
+        <name>SCP_Certa_GC__cliente_formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Cliente Legado --></label>
+        <name>SCP_Certa_GC__idClienteLegado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Payment Type --></label>
+        <name>vlocity_cmt__AccountPaymentType__c</name>
+        <picklistValues>
+            <masterLabel>Postpaid</masterLabel>
+            <translation><!-- Postpaid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepaid</masterLabel>
+            <translation><!-- Prepaid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>vlocity_cmt__Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Auto Payment Amount --></label>
+        <name>vlocity_cmt__AutoPaymentAmount__c</name>
+        <picklistValues>
+            <masterLabel>Full Balance</masterLabel>
+            <translation><!-- Full Balance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimum Due</masterLabel>
+            <translation><!-- Minimum Due --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Auto Payment Card Type --></label>
+        <name>vlocity_cmt__AutoPaymentCardType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Payment Method --></label>
+        <name>vlocity_cmt__AutoPaymentMethodId__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bill Delivery Method --></label>
+        <name>vlocity_cmt__BillDeliveryMethod__c</name>
+        <picklistValues>
+            <masterLabel>Electronic Statements Online</masterLabel>
+            <translation><!-- Electronic Statements Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paper Billing</masterLabel>
+            <translation><!-- Paper Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eMail</masterLabel>
+            <translation><!-- eMail --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Bill Frequency --></label>
+        <name>vlocity_cmt__BillFrequency__c</name>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation><!-- Weekly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Billing eMail Address --></label>
+        <name>vlocity_cmt__BillingEmailAddress__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customer Lifetime Value --></help>
+        <label><!-- CLTV --></label>
+        <name>vlocity_cmt__CLTV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calculated Address --></label>
+        <name>vlocity_cmt__CalculatedAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Churn --></label>
+        <name>vlocity_cmt__Churn__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Preferences --></label>
+        <name>vlocity_cmt__ContactPreferences__c</name>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eMail</masterLabel>
+            <translation><!-- eMail --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Value --></label>
+        <name>vlocity_cmt__CustomerValue__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diamond</masterLabel>
+            <translation><!-- Diamond --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date Founded --></label>
+        <name>vlocity_cmt__DateFounded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Directory Listed --></label>
+        <name>vlocity_cmt__DirectoryListed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Foreign Exchange --></label>
+        <name>vlocity_cmt__Disclosure1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gaming or Gambling --></label>
+        <name>vlocity_cmt__Disclosure2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Money Lending/Pawning --></label>
+        <name>vlocity_cmt__Disclosure3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Autopay --></label>
+        <name>vlocity_cmt__EnableAutopay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Person Account --></label>
+        <name>vlocity_cmt__IsPersonAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Root Resolved --></label>
+        <name>vlocity_cmt__IsRootResolved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Form --></label>
+        <name>vlocity_cmt__LegalForm__c</name>
+        <picklistValues>
+            <masterLabel>Corporation</masterLabel>
+            <translation><!-- Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC</masterLabel>
+            <translation><!-- LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLP</masterLabel>
+            <translation><!-- LLP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not for Profit</masterLabel>
+            <translation><!-- Not for Profit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partnership</masterLabel>
+            <translation><!-- Partnership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sole Proprietorship</masterLabel>
+            <translation><!-- Sole Proprietorship --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Net Worth --></label>
+        <name>vlocity_cmt__NetWorth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>vlocity_cmt__NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Party --></label>
+        <name>vlocity_cmt__PartyId__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Person Contact Id --></label>
+        <name>vlocity_cmt__PersonContactId__c</name>
+        <relationshipLabel><!-- Person Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Premises --></label>
+        <name>vlocity_cmt__PremisesId__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>vlocity_cmt__PrimaryContactId__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Root Account --></label>
+        <name>vlocity_cmt__RootAccountId__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>vlocity_cmt__SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>vlocity_cmt__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspended</masterLabel>
+            <translation><!-- Suspended --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tax ID --></label>
+        <name>vlocity_cmt__TaxID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>vlocity_cmt__vCustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SLA Expiration Date --></label>
+        <name>vlocity_cmt__vSLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Serial Number --></label>
+        <name>vlocity_cmt__vSLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>vlocity_cmt__vSLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+</CustomObjectTranslation>

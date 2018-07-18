@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>CONTACTO INICIAL</fullName>
+        <default>false</default>
+        <label>CONTACTO INICIAL</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>10</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>DISPONIBILIDAD DE RECURSOS</fullName>
+        <default>false</default>
+        <label>DISPONIBILIDAD DE RECURSOS</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>20</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>NEGOCIACIÓN</fullName>
+        <default>false</default>
+        <label>NEGOCIACIÓN</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>70</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>PRESENTACIÓN DE PROPUESTA</fullName>
+        <default>false</default>
+        <label>PRESENTACIÓN DE PROPUESTA</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>50</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>ARMADO DE LA OFERTA</fullName>
+        <default>false</default>
+        <label>ARMADO DE LA OFERTA</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>30</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>VALIDACIÓN DE PROPUESTA</fullName>
+        <default>false</default>
+        <label>VALIDACIÓN DE PROPUESTA</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>40</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Cerrada/Ganada</fullName>
+        <default>false</default>
+        <label>Cerrada/Ganada</label>
+        <closed>true</closed>
+        <forecastCategory>Closed</forecastCategory>
+        <probability>100</probability>
+        <won>true</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Cerrada/Perdida</fullName>
+        <default>false</default>
+        <label>Cerrada/Perdida</label>
+        <closed>true</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,93 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ta-Care-ProfileChanges",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Care/Profile Changes/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 28,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "consoleTabLabel": "New",
+        "controlWidth": 12,
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": "Done Action 2",
+        "message": {
+        },
+        "postMessage": "Done",
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPageName": "mobileDone",
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "taOmniScriptDone",
+        "remoteTimeout": 30000,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "Formula 1"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "DigitChanges"
+                    },
+                    {
+                        "condition": "<=",
+                        "data": "2",
+                        "field": "CountChanges"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "ValidmobilePhone"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Error",
+                        "field": "ValidotherPhone"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Error",
+                        "field": "Validphone"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Error",
+                        "field": "ValidmobilePhone"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "OK",
+                        "field": "respuesta"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "source": "%ContextId%",
+        "ssm": false,
+        "type": "Redirect",
+        "validationRequired": null,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Done Action",
+    "Name": "Done Action 2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Care/Profile Changes/English/Done Action 2"
+}

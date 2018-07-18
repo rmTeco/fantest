@@ -1,0 +1,68 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "PaymentMethod",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 10,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "BillingCycleValue": "=IF(MOMENT(TODAY()).add(7, 'days').format('D') < 7, \"1\", IF(MOMENT(TODAY()).add(7, 'days').format('D') < 14, \"7\", IF(MOMENT(TODAY()).add(7, 'days').format('D') < 21, \"14\", \"21\")))"
+        },
+        "label": null,
+        "message": {
+        },
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": null,
+                        "field": "Account:BillingCycle"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "OrderValidations:ServicePlanExists"
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "Presencial",
+                                    "field": "BillingOrder:Delivery_Method"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Store Pick Up",
+                                    "field": "BillingOrder:Delivery_Method"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetDefaultBillingCycleServicePlan",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English/SetDefaultBillingCycleServicePlan"
+}

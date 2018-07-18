@@ -1,0 +1,31 @@
+{
+    "Case": {
+        "CaseNumber": "",
+        "Category": "",
+        "ContactId": "",
+        "Description": "",
+        "Origin": "",
+        "Reason": "",
+        "ResolutionComment": "",
+        "Status": "",
+        "Subcategory": "",
+        "Subject": "",
+        "Type": ""
+    },
+    "ContextId": "",
+    "GetContactStatus": {
+        "Case": {
+            "Comment": "Text",
+            "ContactId": "Text",
+            "Description": "Text",
+            "Status": "Text",
+            "Subject": "Text"
+        },
+        "ContextId": "Text",
+        "ValidateContact": {
+            "Fraud": true,
+            "Status": "Activo",
+            "Valid": false
+        }
+    }
+}

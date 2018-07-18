@@ -1,0 +1,66 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 2,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "PaymentMethod",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 10,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English",
+        "Name": "PaymentMethodsO",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English/PaymentMethodsO",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "PaymentMethodsO",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "collapse": true,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "hide": false,
+        "label": "Datos DPF",
+        "repeat": false,
+        "repeatClone": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "DunningMessage|n"
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "Debito a Proxima Factura",
+                                    "field": "PaymentMethodRadio|n"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "condition": "=",
+                        "data": "false",
+                        "field": "DPFNoCreditLimitMessage|n"
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Block",
+    "Name": "DPFData",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English/DPFData"
+}

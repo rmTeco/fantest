@@ -1,0 +1,21 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Validación de identidad para el proceso de nominatividad.",
+    "%vlocity_namespace%__Element__c": [
+        "CustomerMaster_NominationIDValidation_Spanish_Element_DOCMethod.json",
+        "CustomerMaster_NominationIDValidation_Spanish_Element_FormUpload.json",
+        "CustomerMaster_NominationIDValidation_Spanish_Element_MethodSelection.json",
+        "CustomerMaster_NominationIDValidation_Spanish_Element_QAMethod.json",
+        "CustomerMaster_NominationIDValidation_Spanish_Element_ValidationMethod.json"
+    ],
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "Spanish",
+    "%vlocity_namespace%__PropertySet__c": "CustomerMaster_NominationIDValidation_Spanish_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "NominationIDValidation",
+    "%vlocity_namespace%__Type__c": "CustomerMaster",
+    "Name": "NominationIDValidation",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CustomerMaster/NominationIDValidation/Spanish"
+}

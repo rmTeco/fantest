@@ -1,0 +1,156 @@
+{
+    "BillingAccounts": [
+        {
+            "AccountIntegrationId": 136271003239,
+            "AccountNumber": "1234562",
+            "Assets": [
+                {
+                    "Id": "02i6C0000002bhfQAA",
+                    "Name": "prueba asset",
+                    "Status": "Active"
+                },
+                {
+                    "Id": "02i6C0000002QdUQAU",
+                    "Name": "Bundle",
+                    "Status": "Active"
+                }
+            ],
+            "AutoPaymentMethodIdFormula": "a2E6C0000001DmKUAU",
+            "AutoPaymentMethodId__c": "a2E6C0000001DmKUAU",
+            "BillingCity": "CABA",
+            "BillingDay": "7",
+            "BillingStreet": "Diagonal 435345",
+            "CountActivePrepaidAssets": 0,
+            "CountTotalActiveAssets": 10,
+            "DebtFinancing": false,
+            "DocumentNumber": "22222222",
+            "DocumentType": "CUIT",
+            "Dunning": false,
+            "Fraud": false,
+            "Id": "0016C000008fDM6QAM",
+            "Name": "Ana Aguirre",
+            "PaymentMethod": {
+                "BankEntityName": "872",
+                "Cbu": "12312312",
+                "Concatenate": "CBU XXXXXXXXXXXXXXXXXX2312",
+                "Id": "a2E6C0000001DmKUAU",
+                "MethodType": "Bank Account"
+            },
+            "PurchaseFinancing": false,
+            "Status": "Active",
+            "TotalActiveAssets": true,
+            "TotalInvalidAssets": 2,
+            "isValidBillingAccount": false
+        },
+        {
+            "AccountIntegrationId": 236271003239,
+            "Assets": [
+                {
+                    "Id": "02i6C0000002NIrQAM",
+                    "Name": "DefaultNewAssets",
+                    "Status": "Active"
+                },
+                {
+                    "Id": "02i6C0000002Mw6QAE",
+                    "Name": "Linea movil del Bundle",
+                    "Status": "Active"
+                }
+            ],
+            "AutoPaymentMethodIdFormula": false,
+            "BillingCity": "CABA",
+            "BillingDay": "14",
+            "BillingStreet": "Diagonal Norte 777",
+            "CountActivePrepaidAssets": 0,
+            "CountTotalActiveAssets": 9,
+            "DebtFinancing": false,
+            "Dunning": false,
+            "Fraud": true,
+            "Id": "0016C000008fHg0QAE",
+            "Name": "Ana Aguirre BA",
+            "ParentId": "0016C000008fDM6QAM",
+            "PurchaseFinancing": false,
+            "Status": "Active",
+            "TotalActiveAssets": true,
+            "TotalInvalidAssets": 0,
+            "isValidBillingAccount": false
+        },
+        {
+            "AccountIntegrationId": 336271003239,
+            "Assets": [
+                {
+                    "Id": "02i6C0000002S46QAE",
+                    "Name": "Simcard",
+                    "Status": "Active"
+                },
+                {
+                    "Id": "02i6C0000002PnAQAU",
+                    "Name": "Internet",
+                    "Status": "Active"
+                },
+                {
+                    "Id": "02i6C0000002XsYQAU",
+                    "Name": "TEST 01",
+                    "Status": "Active"
+                }
+            ],
+            "AutoPaymentMethodIdFormula": false,
+            "BillingCity": "Banfield",
+            "BillingDay": "14",
+            "BillingStreet": "Hipólito Yrigoyen 9773",
+            "CountActivePrepaidAssets": 1,
+            "CountTotalActiveAssets": 6,
+            "DebtFinancing": false,
+            "Dunning": false,
+            "Fraud": false,
+            "Id": "0016C0000098zidQAA",
+            "Name": "Ana Aguirre GBA",
+            "ParentId": "0016C000008fDM6QAM",
+            "PurchaseFinancing": false,
+            "Status": "Active",
+            "TotalActiveAssets": true,
+            "TotalInvalidAssets": 0,
+            "isValidBillingAccount": false
+        },
+        {
+            "AccountIntegrationId": 436271003239,
+            "AutoPaymentMethodIdFormula": false,
+            "BillingCity": "B0113",
+            "BillingStreet": "Calle 2131",
+            "CountActivePrepaidAssets": 0,
+            "CountTotalActiveAssets": 0,
+            "DebtFinancing": false,
+            "Dunning": false,
+            "Fraud": false,
+            "Id": "0016C000009HX0SQAW",
+            "Name": "Ana Aguirre Billing",
+            "ParentId": "0016C000008fDM6QAM",
+            "PurchaseFinancing": false,
+            "Status": "Active",
+            "TotalActiveAssets": false,
+            "TotalInvalidAssets": 0,
+            "isValidBillingAccount": false
+        },
+        {
+            "Assets": {
+                "Id": "02i6C0000002QdUQAU",
+                "Name": "Bundle",
+                "Status": "Active"
+            },
+            "AutoPaymentMethodIdFormula": false,
+            "BillingCity": "B1718",
+            "BillingStreet": "asd 12",
+            "CountActivePrepaidAssets": 0,
+            "CountTotalActiveAssets": 1,
+            "DebtFinancing": false,
+            "Dunning": false,
+            "Fraud": false,
+            "Id": "0016C000009I4EMQA0",
+            "Name": "Ana Aguirretest",
+            "ParentId": "0016C000008fDM6QAM",
+            "PurchaseFinancing": false,
+            "TotalActiveAssets": true,
+            "TotalInvalidAssets": 0,
+            "isValidBillingAccount": false
+        }
+    ]
+}

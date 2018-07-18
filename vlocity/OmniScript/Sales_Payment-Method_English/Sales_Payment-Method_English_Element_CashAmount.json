@@ -1,0 +1,67 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 2,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "PaymentMethod",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 7,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English",
+        "Name": "PaymentMethodsO",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English/PaymentMethodsO",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "PaymentMethodsO",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "allowNegative": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "currencySymbol": "$",
+        "debounceValue": 0,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "label": "Monto",
+        "mask": 2,
+        "max": null,
+        "min": 0,
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": ">",
+                        "data": "1",
+                        "field": "PMQuantity"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Efectivo",
+                        "field": "PaymentMethodRadio|n"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Currency",
+    "Name": "CashAmount",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English/CashAmount"
+}

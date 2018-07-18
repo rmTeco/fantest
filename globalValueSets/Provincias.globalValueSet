@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Corrientes</fullName>
+        <default>false</default>
+        <label>Corrientes</label>
+    </customValue>
+    <customValue>
+        <fullName>Buenos Aires</fullName>
+        <default>false</default>
+        <label>Buenos Aires</label>
+    </customValue>
+    <customValue>
+        <fullName>Santa Fé</fullName>
+        <default>false</default>
+        <label>Santa Fé</label>
+    </customValue>
+    <masterLabel>Provincias</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

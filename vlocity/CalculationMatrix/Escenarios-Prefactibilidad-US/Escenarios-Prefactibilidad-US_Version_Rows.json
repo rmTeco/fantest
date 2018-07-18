@@ -1,0 +1,290 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Escenarios Prefactibilidad US",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Escenarios Prefactibilidad US V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "2f99d5",
+            "dataType": "Text",
+            "displayOrder": 4,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Aplica DISPONIBILIDAD"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Escenarios Prefactibilidad US",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Escenarios Prefactibilidad US V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "8f3a77",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Código factibilidad"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Escenarios Prefactibilidad US",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Escenarios Prefactibilidad US V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "9701b6",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Disponibilidad Servicio"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Escenarios Prefactibilidad US",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Escenarios Prefactibilidad US V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "b52cd8",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Tecnologia de Acceso"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Escenarios Prefactibilidad US",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Escenarios Prefactibilidad US V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Código factibilidad": "37110",
+            "Disponibilidad Servicio": "Internet",
+            "Tecnologia de Acceso": "FIBRA"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Aplica DISPONIBILIDAD": "SI"
+        },
+        "Name": "4ff13f7c7d3f63da9260731894767c40",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Escenarios Prefactibilidad US",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Escenarios Prefactibilidad US V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Código factibilidad": "37110",
+            "Disponibilidad Servicio": "Voz",
+            "Tecnologia de Acceso": "FIBRA"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Aplica DISPONIBILIDAD": "SI"
+        },
+        "Name": "80b327109b4d31af9d0ae894b6417f9d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Escenarios Prefactibilidad US",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Escenarios Prefactibilidad US V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Código factibilidad": "37120",
+            "Disponibilidad Servicio": "Internet",
+            "Tecnologia de Acceso": "FIBRA"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Aplica DISPONIBILIDAD": "SI"
+        },
+        "Name": "a11497091734377af1737496cf856327",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Escenarios Prefactibilidad US",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Escenarios Prefactibilidad US V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Código factibilidad": "37120",
+            "Disponibilidad Servicio": "Voz",
+            "Tecnologia de Acceso": "FIBRA"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Aplica DISPONIBILIDAD": "SI"
+        },
+        "Name": "1b79202f01fcba93d54c21368588bd63",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Escenarios Prefactibilidad US",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Escenarios Prefactibilidad US V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Código factibilidad": "37130",
+            "Disponibilidad Servicio": "Internet",
+            "Tecnologia de Acceso": "FIBRA"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Aplica DISPONIBILIDAD": "SI"
+        },
+        "Name": "e9e2cf6c9b35033c9612b0a88efea0f7",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Escenarios Prefactibilidad US",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Escenarios Prefactibilidad US V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Código factibilidad": "37130",
+            "Disponibilidad Servicio": "Voz",
+            "Tecnologia de Acceso": "FIBRA"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Aplica DISPONIBILIDAD": "SI"
+        },
+        "Name": "912beddfc3ce42d791b41adbcbca8770",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Escenarios Prefactibilidad US",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Escenarios Prefactibilidad US V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Código factibilidad": "37140",
+            "Disponibilidad Servicio": "Internet",
+            "Tecnologia de Acceso": "FIBRA"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Aplica DISPONIBILIDAD": "NO"
+        },
+        "Name": "9102af38bca52a4479c8d3ab364a28f3",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Escenarios Prefactibilidad US",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Escenarios Prefactibilidad US V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Código factibilidad": "37140",
+            "Disponibilidad Servicio": "Voz",
+            "Tecnologia de Acceso": "FIBRA"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Aplica DISPONIBILIDAD": "NO"
+        },
+        "Name": "44cfbe17f136adc6cfeeb6c597d34ba3",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Escenarios Prefactibilidad US",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Escenarios Prefactibilidad US V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Código factibilidad": "37150",
+            "Disponibilidad Servicio": "Internet",
+            "Tecnologia de Acceso": "FIBRA"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Aplica DISPONIBILIDAD": "SI"
+        },
+        "Name": "78c7994fee197983e4059ddc67be809a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Escenarios Prefactibilidad US",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/Escenarios Prefactibilidad US V1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Código factibilidad": "37150",
+            "Disponibilidad Servicio": "Voz",
+            "Tecnologia de Acceso": "FIBRA"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Aplica DISPONIBILIDAD": "SI"
+        },
+        "Name": "a3bfd396381daca9a06067c8e825ad85",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

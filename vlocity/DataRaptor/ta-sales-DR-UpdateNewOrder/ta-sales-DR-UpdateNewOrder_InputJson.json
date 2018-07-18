@@ -1,0 +1,21 @@
+{
+    "ContextId": "",
+    "OriginatingChannel": {
+        "SalesChannel": "Oficina Comercial"
+    },
+    "SalesChannelConfiguration": {
+        "BillingCycle": "14",
+        "City": null,
+        "DeliveryMethodSelection": "Delivery",
+        "State": null,
+        "Store": null
+    },
+    "id": "a1q6C000000afbNQAQ",
+    "layout": "lightning",
+    "timeStamp": "2017-08-11T20:54:16.309Z",
+    "userId": "0056C000000gQeHQAU",
+    "userName": "jorge.luis.seibert@accenture.com",
+    "userProfile": "Vlocity_Developer",
+    "vlcPersistentComponent": {
+    }
+}

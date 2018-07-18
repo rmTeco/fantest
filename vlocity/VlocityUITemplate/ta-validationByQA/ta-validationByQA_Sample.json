@@ -1,0 +1,121 @@
+{
+    "control": {
+        "itemsKey": "key",
+        "vlcSI": {
+            "key": [
+                {
+                    "CUIL": {
+                    },
+                    "Preguntas": [
+                        {
+                            "Respuestas": [
+                                {
+                                    "codRespuesta": "0",
+                                    "respuesta": "Ana"
+                                },
+                                {
+                                    "codRespuesta": "1",
+                                    "respuesta": "Maria"
+                                },
+                                {
+                                    "codRespuesta": "2",
+                                    "respuesta": "Jose"
+                                },
+                                {
+                                    "codRespuesta": "3",
+                                    "respuesta": "Ninguna de las anteriores"
+                                }
+                            ],
+                            "codConsulta": "0",
+                            "codRespuesta": null,
+                            "consulta": "¿Cuál de estos nombres reconoce como propio?"
+                        },
+                        {
+                            "Respuestas": [
+                                {
+                                    "codRespuesta": "0",
+                                    "respuesta": "39"
+                                },
+                                {
+                                    "codRespuesta": "1",
+                                    "respuesta": "43"
+                                },
+                                {
+                                    "codRespuesta": "2",
+                                    "respuesta": "45"
+                                },
+                                {
+                                    "codRespuesta": "3",
+                                    "respuesta": "Ninguna de las anteriores"
+                                }
+                            ],
+                            "codConsulta": "1",
+                            "codRespuesta": null,
+                            "consulta": "¿Qué edad tiene?"
+                        },
+                        {
+                            "Respuestas": [
+                                {
+                                    "codRespuesta": "0",
+                                    "respuesta": "Punta Arenas"
+                                },
+                                {
+                                    "codRespuesta": "1",
+                                    "respuesta": "Chivilcoy"
+                                },
+                                {
+                                    "codRespuesta": "2",
+                                    "respuesta": "Rivadavia"
+                                },
+                                {
+                                    "codRespuesta": "3",
+                                    "respuesta": "Ninguna de las anteriores"
+                                }
+                            ],
+                            "codConsulta": "2",
+                            "codRespuesta": null,
+                            "consulta": "¿Cuál de estas calles le resulta familiar?"
+                        },
+                        {
+                            "Respuestas": [
+                                {
+                                    "codRespuesta": "0",
+                                    "respuesta": "RED COLON S.A."
+                                },
+                                {
+                                    "codRespuesta": "1",
+                                    "respuesta": "ARBATAX S.A."
+                                },
+                                {
+                                    "codRespuesta": "2",
+                                    "respuesta": "FRIGORIFICO SAN FRANCISCO S.A.I.C. Y A."
+                                },
+                                {
+                                    "codRespuesta": "3",
+                                    "respuesta": "Ninguna de las anteriores"
+                                }
+                            ],
+                            "codConsulta": "3",
+                            "codRespuesta": null,
+                            "consulta": "¿En cuál de estas empresas trabaja o ha trabajado recientemente?"
+                        }
+                    ],
+                    "apellido": "Ramos",
+                    "descripcionInteraccionNegocio": "Cuestionario Simple",
+                    "descripcionIntervaloTiempo": "null",
+                    "nombre": "Sandra Anabelle",
+                    "numeroDocumento": "99999999",
+                    "ticket": "A392775852",
+                    "tiempoRespuesta": "0.23 segundos"
+                }
+            ]
+        }
+    },
+    "data": {
+        "actions": [
+        ],
+        "fields": [
+        ],
+        "title": ""
+    }
+}

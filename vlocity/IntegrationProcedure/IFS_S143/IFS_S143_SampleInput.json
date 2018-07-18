@@ -1,0 +1,38 @@
+{
+    "body": {
+        "codMotivoRecarga": "24",
+        "codigoAccesoSuscriptor": {
+            "codSuscripcion": "13800010031"
+        },
+        "infoRecarga": {
+            "infoTarjetaSC": {
+                "numeroSerie": "1111111111",
+                "pinTarjetaPrepago": "1234"
+            },
+            "listPagoEfectivo": [
+                {
+                    "infoBanco": {
+                        "cantidadCuotasTarjeta": "",
+                        "codEntidadFinanciera": "",
+                        "codEntidadTC": "",
+                        "codMedioPago": "",
+                        "codSeguridadTarjeta": "",
+                        "codSucursalEntidad": "",
+                        "fechaEmisionCheque": "",
+                        "fechaVencimientoTarjeta": "",
+                        "nombreEntidadFinanciera": "",
+                        "nroCheque": "",
+                        "ultimosDigitosTarjeta": ""
+                    },
+                    "montoRecarga": 100
+                }
+            ]
+        },
+        "listaDatosAdicionales": [
+            {
+                "nombreParametro": "",
+                "valorParametro": ""
+            }
+        ]
+    }
+}

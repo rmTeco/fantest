@@ -1,0 +1,23 @@
+[
+    {
+        "%vlocity_namespace%__FieldApiName__c": "%vlocity_namespace%__ProductSpecId__c",
+        "%vlocity_namespace%__GlobalKey__c": "ef92dc54-3b9f-250f-e566-341d2f8724fe",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ObjectClassId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "63ba6ae5f8c257f7cdccc385d2a85dca",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/63ba6ae5f8c257f7cdccc385d2a85dca",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+        },
+        "%vlocity_namespace%__ObjectType__c": "Product2",
+        "%vlocity_namespace%__SubClassId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b5d1bff0-fd01-5c55-5bbd-8396ae006b6d",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/b5d1bff0-fd01-5c55-5bbd-8396ae006b6d",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "Name": "ef92dc54-3b9f-250f-e566-341d2f8724fe",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectFieldAttribute__c"
+    }
+]

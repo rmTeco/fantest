@@ -1,0 +1,20 @@
+{
+    "%vlocity_namespace%__CalculationMatrixId__c": {
+        "Name": "AdjustmentsMatrix",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/AdjustmentsMatrix",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+    },
+    "%vlocity_namespace%__CalculationMatrixId__r.Name": "AdjustmentsMatrix",
+    "%vlocity_namespace%__CalculationMatrixRow__c": "AdjustmentsMatrix_Version_Rows.json",
+    "%vlocity_namespace%__CurrentStatus__c": "Active",
+    "%vlocity_namespace%__EndDateTime__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "f1c9336b-9415-bea8-8407-982285e3f133",
+    "%vlocity_namespace%__Priority__c": 1,
+    "%vlocity_namespace%__StartDateTime__c": "2018-01-11T17:39:19.000Z",
+    "%vlocity_namespace%__VersionNumber__c": 1,
+    "Name": "AdjustmentsMatrix",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/AdjustmentsMatrix"
+}

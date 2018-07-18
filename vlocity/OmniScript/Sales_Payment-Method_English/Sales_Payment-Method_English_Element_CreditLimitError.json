@@ -1,0 +1,88 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 3,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "PaymentMethod",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 7,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English",
+        "Name": "DPFData",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English/DPFData",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "DPFData",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "hideLabel": true,
+        "label": null,
+        "messages": [
+            {
+                "active": false,
+                "text": "",
+                "type": "Success",
+                "value": true
+            },
+            {
+                "active": true,
+                "text": "El monto ingresado supera el límite de crédito disponible.",
+                "type": "Requirement",
+                "value": false
+            }
+        ],
+        "show": null,
+        "validateExpression": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "<",
+                                    "data": "%CreditLimit%",
+                                    "field": "S013_Response:IPResult:calculoImpuestosRespuesta:importeComprobante"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "1",
+                                    "field": "PMQuantity"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "<",
+                                    "data": "%CreditLimit%",
+                                    "field": "DPFAmount|n"
+                                },
+                                {
+                                    "condition": ">",
+                                    "data": "1",
+                                    "field": "PMQuantity"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Validation",
+    "Name": "CreditLimitError",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Sales/Payment Method/English/CreditLimitError"
+}

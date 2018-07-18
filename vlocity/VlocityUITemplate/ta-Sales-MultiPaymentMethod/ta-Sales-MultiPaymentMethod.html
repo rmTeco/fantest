@@ -1,0 +1,116 @@
+<div 
+    class="slds-col taPaymentMethod" 
+    ng-controller="MultiPaymentMethodController as mpmc"
+    ng-init="mpmc.init();"
+    ng-if="bpTree.response.PaymentMethodQuantity">
+    <section>
+        <div class="header-simulation">
+            <div class="slds-text-body--small header-title">Total a pagar</div>
+            <div class="slds-truncate total">{{ mpmc.total | currency:"ARS " }}</div>
+        </div>
+        <div class="body-simulation slds-col">
+            
+            <div ng-repeat="item in mpmc.items" class="items-row">
+                <div class="slds-truncate">{{item.Quantity}} x {{item.Product.Name}}</div>
+                <div class="slds-truncate">{{item.UnitPrice | currency:"ARS " }}</div>
+            </div>
+            
+            <div class="items-row">
+                <div class="slds-truncate">Subtotal</div> 				
+                <div class="slds-truncate">{{ mpmc.totalBeforeTaxes | currency:"ARS " }}</div>
+            </div>
+            
+            <div class="items-row">
+                <div class="slds-truncate">Impuestos </div>
+                <div class="slds-truncate">{{ mpmc.totalTaxes | currency:"ARS " }} </div>
+            </div>
+            
+            <div ng-if="bpTree.response.CalculateInterest_Response.CFT"   class="items-row">
+                <div class="slds-truncate">CFT (Calculado al {{ bpTree.response.CalculateInterest_Response.CFT }} % )</div>
+                <div class="slds-truncate">{{ bpTree.response.CalculateInterest_Response.Interest | currency:"ARS " }}</div>
+            </div>
+            
+        </div>
+    </section>
+    <section>
+        <div class="taPaymentMethodContainer">
+            <div class="taPaymentMethodForm">
+                <h3>Medio de pago 1</h3>
+                <div class="slds-m-bottom--medium">
+                    <fieldset class="slds-form-element">
+                        <div class="slds-form-element__control">
+                            <span 
+                                class="slds-radio"
+                                ng-repeat="medioDePago in mpmc.medioDePagos">
+                                <input type="radio" id="radio-{{$index}}" name="options" ng-value="medioDePago.value"/>
+                                <label class="slds-radio__label" for="radio-{{$index}}">
+                                    <span class="slds-radio--faux"></span>
+                                    <span class="slds-form-element__label">{{medioDePago.name}}</span>
+                                </label>
+                            </span>
+                        </div>
+                    </fieldset>
+                </div>
+                <div>
+                    <div class="slds-form-element slds-m-bottom--medium">
+                        <div class="slds-form-element__control">
+                            <div class="slds-select_container">
+                                <select 
+                                    class="slds-select"
+                                    ng-model="mpmc.entidadBancariaSelected"
+                                    ng-change="mpmc.getCardsByBank();">
+                                    <option value="">Seleccione Banco</option>
+                                    <option 
+                                        ng-repeat="entidadBancaria in mpmc.entidadesBancarias" 
+                                        ng-value="entidadBancaria.name">{{entidadBancaria.value}}</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slds-form-element slds-m-bottom--medium">
+                        <div class="slds-form-element__control">
+                            <div class="slds-select_container">
+                                <select 
+                                    class="slds-select"
+                                    ng-disabled="!mpmc.entidadBancariaSelected"
+                                    ng-model="mpmc.tarjetaSelected"
+                                    ng-change="mpmc.getInstallmentsByCard();">
+                                    <option value="">Seleccione Tarjeta</option>
+                                    <option ng-repeat="tarjeta in mpmc.tarjetasPorBanco" ng-value="tarjeta.name">{{tarjeta.value}}</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slds-form-element slds-m-bottom--medium">
+                        <div class="slds-form-element__control">
+                            <div class="slds-select_container">
+                                <select 
+                                    class="slds-select"
+                                    ng-disabled="!mpmc.tarjetaSelected"
+                                    ng-model=mpmc.cuotaSelected
+                                    ng-change="mpmc.getInstallmentsByCard();">
+                                    <option value="">Seleccione Cuotas</option>
+                                    <option ng-repeat="cuota in mpmc.cuotasPorTarjetaYBanco" ng-value="cuota.name">{{cuota.value}}</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slds-form-element">
+                        <div class="slds-form-element__control">
+                            <input type="text" class="slds-input" placeholder="Placeholder Text" />
+                        </div>
+                    </div>
+                </div>
+                <span>!</span>
+                <span>Costo financiero de ARS 340</span>
+            </div>
+        </div>
+        <a 
+            ng-href=""
+            ng-click="mpmc.addPaymentMethod();"
+            ng-disabled="mpmc.disableAddPaymentMethod">
+                + Agregar nuevo medio de pago
+        </a>
+        <button>Simular precio final</button>
+    </section>
+</div>

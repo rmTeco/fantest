@@ -1,0 +1,67 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ta-OwnershipChanges",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Care/Ownership Changes/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 15,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataRaptor Input Parameters": [
+        ],
+        "elementValueMap": {
+            "Case": {
+                "AccountId": "=%ContextId%",
+                "Description": "Sesión guiada para cambios de titularidad",
+                "RecordType": "Diagnosis",
+                "ResolutionComment": "El cliente no acepta el costo de la operación.",
+                "Status": "Closed",
+                "Subject": "Cambio de titularidad",
+                "Type": "WEB"
+            }
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": null,
+        "message": {
+        },
+        "postMessage": "Done",
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcAcknowledge.html",
+        "remoteTimeout": 30000,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "false",
+                        "field": "IsCostForChangesAccepted"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetCaseClosedCostForChangesNotAccepted",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Care/Ownership Changes/English/SetCaseClosedCostForChangesNotAccepted"
+}

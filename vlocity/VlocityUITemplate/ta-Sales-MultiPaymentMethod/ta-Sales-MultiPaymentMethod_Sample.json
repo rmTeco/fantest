@@ -1,0 +1,164 @@
+{
+    "bpTree": {
+        "response": {
+            "BillingCycleShow": true,
+            "BillingOrder": {
+                "Channel": "Call Center",
+                "TotalAmount": 100
+            },
+            "CalculateInterest_Response": {
+                "Interest": ""
+            },
+            "ContextId": "",
+            "CreditDiscountPaymentMethod": true,
+            "Dunning": false,
+            "IdOrder": "8016C0000000PGQQA2",
+            "PaymentMethod": {
+                "DPFCount": 1,
+                "DPFLimitMessage": true,
+                "InstallmentsFormula": 0,
+                "PaymentMethodMessage": true,
+                "PaymentMethodQuantityFormula": true,
+                "PaymentMethods": {
+                    "CreditCardData": null,
+                    "DPFData": {
+                        "ConditionalCFT": null,
+                        "DPFInstallments": null
+                    },
+                    "DunningMessage": true,
+                    "PMAndDunningFormula": true,
+                    "PaymentMethodFormula": "Debito a Proxima Factura",
+                    "PaymentMethodRadio": "Debito a Proxima Factura"
+                }
+            },
+            "PaymentMethodQuantity": "3",
+            "S018_Response": {
+                "listaInfoBalance": {
+                    "infoBalance": [
+                        {
+                            "codCuenta": "13800015438",
+                            "listaCicloFacturacion": {
+                                "cicloFacturacion": [
+                                    {
+                                        "cicloFacturacion": "20170901",
+                                        "detalleCicloFacturacion": {
+                                            "detalleItemCicloFacturacion": [
+                                                {
+                                                    "balanceCuenta": "859.6500",
+                                                    "codMoneda": "ARS"
+                                                }
+                                            ]
+                                        },
+                                        "fechaCorteFacturacion": "2017-09-30 00:00:00",
+                                        "fechaInicioFacturacion": "2017-09-01 00:00:00",
+                                        "fechaVencimientoFacturacion": "2017-10-10 00:00:00"
+                                    },
+                                    {
+                                        "cicloFacturacion": "2017-10-01 00:00:00",
+                                        "detalleCicloFacturacion": {
+                                            "detalleItemCicloFacturacion": [
+                                                {
+                                                    "balanceCuenta": "20.0400",
+                                                    "codMoneda": "ARS"
+                                                }
+                                            ]
+                                        },
+                                        "fechaCorteFacturacion": "2017-10-31 00:00:00",
+                                        "fechaInicioFacturacion": "2017-10-01 00:00:00",
+                                        "fechaVencimientoFacturacion": "2017-11-10 00:00:00"
+                                    },
+                                    {
+                                        "cicloFacturacion": "20171201",
+                                        "detalleCicloFacturacion": {
+                                            "detalleItemCicloFacturacion": [
+                                                {
+                                                    "balanceCuenta": "546.0000",
+                                                    "codMoneda": "ARS"
+                                                }
+                                            ]
+                                        },
+                                        "fechaCorteFacturacion": "2017-12-31 00:00:00",
+                                        "fechaInicioFacturacion": "2017-12-01 00:00:00",
+                                        "fechaVencimientoFacturacion": "2018-01-10 00:00:00"
+                                    }
+                                ]
+                            },
+                            "listaDeBalances": {
+                                "balance": [
+                                    {
+                                        "codMoneda": "ARS",
+                                        "codTipoBalance": "C_MAIN_BILLING_ACCOUNT",
+                                        "detalleBalance": {
+                                            "detalleItemBalance": [
+                                                {
+                                                    "balanceOriginal": {
+                                                        "codAccionNegocio": "OFER",
+                                                        "codInteraccionNegocio": "12346",
+                                                        "descripcionAccionNegocio": "OFERTA",
+                                                        "descripcionProducto": "OFERTA",
+                                                        "nombrePlanGlobal": {
+                                                            "descripcionProducto": "OFERTA GLOBAL"
+                                                        }
+                                                    },
+                                                    "codBalance": "701000000000000004",
+                                                    "fechaVigenciaDesdeProdAdq": "2017-09-01 00:00:00",
+                                                    "fechaVigenciaHastaProdAdq": "2017-12-31 00:00:00",
+                                                    "saldoAnteriorBalance": "0.0000",
+                                                    "saldoBalance": "1425.6900"
+                                                }
+                                            ]
+                                        },
+                                        "flagCuentaDeposito": "N",
+                                        "flagReembolsoEfectivo": "N",
+                                        "nombreBalance": "Balance Principal",
+                                        "saldoOriginalPorTipoBalance": "2234.0000",
+                                        "saldoPorTipoBalance": "1425.6900"
+                                    }
+                                ]
+                            },
+                            "listaInfoCredito": {
+                                "infoCredito": [
+                                    {
+                                        "codMoneda": "ARS",
+                                        "codTipoPerfilCrediticio": "string",
+                                        "limiteCreditoActual": "2100.0000",
+                                        "limiteCreditoConsumido": "750.0000",
+                                        "limiteCreditoRemanente": "123.0000",
+                                        "listaInfoCuentaCredito": {
+                                            "infoCuentaCredito": [
+                                                {
+                                                    "codPerfilCrediticio": "Unknown Type: Long",
+                                                    "fechaVigenciaPerfilDesde": "2017-10-31 00:00:00",
+                                                    "fechaVigenciaPerfilHasta": "2017-12-31 00:00:00",
+                                                    "limiteCreditoOriginal": "Unknown Type: Long",
+                                                    "tipoPerfilCrediticio": "string"
+                                                }
+                                            ]
+                                        },
+                                        "nombrePerfilCrediticio": "string"
+                                    }
+                                ]
+                            },
+                            "saldoPorTipoBalance": "3433.8700"
+                        }
+                    ]
+                }
+            },
+            "accountId": "0016C000009Hdj5",
+            "assetId": "02i6C0000002Vih",
+            "canalDeVenta": "POC",
+            "codigoCuentaAcceso": {
+                "codCuenta": "13800015438"
+            },
+            "error": "OK",
+            "id": "a1q6C0000001qcWQAQ",
+            "layout": "lightning",
+            "timeStamp": "2017-12-26T12:54:40.666Z",
+            "userId": "0056C000000gQeHQAU",
+            "userName": "jorge.luis.seibert@accenture.com",
+            "userProfile": "System Administrator",
+            "vlcPersistentComponent": {
+            }
+        }
+    }
+}

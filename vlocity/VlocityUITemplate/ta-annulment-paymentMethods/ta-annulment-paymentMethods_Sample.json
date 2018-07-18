@@ -1,0 +1,81 @@
+{
+    "bpTree": {
+        "response": {
+            "Account": {
+                "%vlocity_namespace%__BillingEmailAddress__c": "test@billing.com",
+                "%vlocity_namespace%__PrimaryContactId__c": "0036C000007FTsuQAG",
+                "AccountIntegrationId": "1380001003300001",
+                "BillingCity": "B1908",
+                "BillingState": "B",
+                "Contact": {
+                    "Birthdate": "1975-05-24",
+                    "DocumentNumber__c": "24839704",
+                    "DocumentType": "DNI",
+                    "Email": "facosta@outlook.com",
+                    "FirstName": "Florinda",
+                    "Gender__c": "Femenino",
+                    "LastName": "Acosta",
+                    "MobilePhone": "93093029",
+                    "Name": "Florinda Acosta",
+                    "Phone": "993839381"
+                },
+                "CustomerIntegrationId__c": 13800010033,
+                "HuaweiNotice_S015": true,
+                "HuaweiNotice_S202": true,
+                "Id": "0016C00000993xtQAA",
+                "Name": "Florinda Acosta",
+                "Phone": "1153740405"
+            },
+            "BillingOrder": {
+                "Channel": "Agentes",
+                "Delivery_Method": "Delivery",
+                "EffectiveDate": "2018-01-30",
+                "Id": "8016C0000008WVvQAM",
+                "OrderNumber": "00018617",
+                "OrderTotal": 17998,
+                "OriginStoreLocation": "a3U6C000000HxYFUA0",
+                "PreInvoiceNumber": "1111",
+                "Status": "Draft",
+                "StatusCode": "D",
+                "StoreLocation": {
+                    "Channel": "Telefónico",
+                    "ChannelType": "Call Center"
+                },
+                "TotalAmount": 0,
+                "TrackingStatus__c": "Pendiente de entrega"
+            },
+            "CardsPaymentsCharged": {
+                "data": [
+                    {
+                        "$$hashKey": "object:70",
+                        "PaymentAdjustmentId": "a2D6C0000004l2TUAQ",
+                        "SecurityCode": ""
+                    },
+                    {
+                        "$$hashKey": "object:71",
+                        "PaymentAdjustmentId": "a2D6C0000004l4FUAQ",
+                        "SecurityCode": ""
+                    }
+                ]
+            },
+            "ContextId": "",
+            "IdOrder": "8016C0000008WVv",
+            "id": "a1q6C0000001p7MQAQ",
+            "layout": "lightning",
+            "timeStamp": "2018-02-08T21:52:39.069Z",
+            "userCurrencyCode": "ARS",
+            "userId": "0056C000000gOrCQAU",
+            "userName": "eledesma@vlocity.com.desa01",
+            "userProfile": "System Administrator",
+            "userTimeZone": -180,
+            "vlcPersistentComponent": {
+            },
+            "vlcTimeTracking": {
+                "DataRaptorExtractAction1": 1124,
+                "DataRaptorExtractAction2": 825,
+                "OmniScriptSessionToken": "96cec907-50ab-4925-9a27-2f971dc5150a",
+                "SetValues2": 22
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "input:Latency",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "MOCK_Latency:Response:Latencia",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "GetDiagnosisLatencyTransformCustom8058",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "GetDiagnosisLatencyTransform",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "input:Provincia",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "MOCK_Latency:Response:Provincia",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "GetDiagnosisLatencyTransformCustom2632",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "GetDiagnosisLatencyTransform",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

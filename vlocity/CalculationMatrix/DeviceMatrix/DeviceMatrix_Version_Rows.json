@@ -1,0 +1,469 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "1aeb0c",
+            "dataType": "Text",
+            "displayOrder": 4,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0K6C000003hb1WUAQ",
+            "listValues": null,
+            "name": "Tooltip"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "2afaf5",
+            "dataType": "Text",
+            "displayOrder": 5,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0K6C000003hb1bUAA",
+            "listValues": null,
+            "name": "CategoryName"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "d8e9a",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0K6C000003hb1KUAQ",
+            "listValues": null,
+            "name": "Dispositivo"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "fcb982",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0K6C000003hb1MUAQ",
+            "listValues": null,
+            "name": "Color"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "fdde06",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0K6C000003hb1LUAQ",
+            "listValues": null,
+            "name": "Resultado"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Dispositivo": "Capacidad de red",
+            "Resultado": "Alta latencia"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CategoryName": "Red",
+            "Color": "Rojo",
+            "Tooltip": "Alta latencia (Mensaje a Definir)"
+        },
+        "Name": "1e505562b87663f36b6b239e7cbe3025",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Dispositivo": "Capacidad de red",
+            "Resultado": "Con perdida de Paq"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CategoryName": "Red",
+            "Color": "Rojo",
+            "Tooltip": "Pérdida de paquetes (Mensaje a Definir)"
+        },
+        "Name": "1b3d54fb6c00b696de5689a53c0cf1b2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Dispositivo": "Capacidad de red",
+            "Resultado": "Latencia OK"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CategoryName": "Red",
+            "Color": "Verde",
+            "Tooltip": "NA"
+        },
+        "Name": "c18608c6c6a90a8f1f44f7f934aed83b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Dispositivo": "Capacidad de red",
+            "Resultado": "Sin Resultado"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CategoryName": "Red",
+            "Color": "Gris",
+            "Tooltip": "A definir con UX"
+        },
+        "Name": "ee3d4fd01d06bec1dae9e21c52a8529b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Dispositivo": "Capacidad de red",
+            "Resultado": "Sin perdida de Paq"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CategoryName": "Red",
+            "Color": "Verde",
+            "Tooltip": "NA"
+        },
+        "Name": "fbf08c38cfbcf2dd56d35c511c371a62",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Dispositivo": "Conexión",
+            "Resultado": "Portales Cautivos 100"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CategoryName": "Red",
+            "Color": "Amarillo",
+            "Tooltip": "El cliente se encuentra en portal cautivo 100 (Suspendido por falta de pago)"
+        },
+        "Name": "f7355eeda4707180983fa9f49981fc2e",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Dispositivo": "Conexión",
+            "Resultado": "Portales Cautivos 101"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CategoryName": "Red",
+            "Color": "Amarillo",
+            "Tooltip": "El cliente se encuentra en portal cautivo 101 (Suspendido por falta de pago)"
+        },
+        "Name": "39a72296560022f435ed4755ca5742a7",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Dispositivo": "Conexión",
+            "Resultado": "Portales Cautivos 102"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CategoryName": "Red",
+            "Color": "Amarillo",
+            "Tooltip": "El cliente se encuentra en portal cautivo 102 (Aviso de factura vencida)"
+        },
+        "Name": "224feb1f9b3500e143456d9bb7defee0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Dispositivo": "Conexión",
+            "Resultado": "Sesión Activa"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CategoryName": "Red",
+            "Color": "Verde",
+            "Tooltip": "NA"
+        },
+        "Name": "b57f5f13c55baeb169410304cc7f1549",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Dispositivo": "Conexión",
+            "Resultado": "Sin Sesión"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CategoryName": "Red",
+            "Color": "Rojo",
+            "Tooltip": "NA"
+        },
+        "Name": "5bad1c7389826817766e196053a87d67",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Dispositivo": "Estabilidad de la conexión",
+            "Resultado": "Estable"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CategoryName": "Red",
+            "Color": "Verde",
+            "Tooltip": "NA"
+        },
+        "Name": "430cc57d2015af8054b663be7f372230",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Dispositivo": "Estabilidad de la conexión",
+            "Resultado": "Inestable"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CategoryName": "Red",
+            "Color": "Rojo",
+            "Tooltip": "Mensaje a Definir 1"
+        },
+        "Name": "7ed118a7df6c8b86567a241c9d404405",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Dispositivo": "Estabilidad de la conexión",
+            "Resultado": "Sin Datos"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CategoryName": "Red",
+            "Color": "Gris",
+            "Tooltip": "Mensaje a Definir 2"
+        },
+        "Name": "22855f5830a9de4b06293710dbc701d0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Dispositivo": "Módem",
+            "Resultado": "Sin Sesión"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CategoryName": "Hogar",
+            "Color": "Rojo",
+            "Tooltip": "No se ha detectado el módem"
+        },
+        "Name": "2d73aac04e3f25f82e1391b5b0233968",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Dispositivo": "Puerto de Conexión",
+            "Resultado": "Down/Down"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CategoryName": "Central Telefónica",
+            "Color": "Rojo",
+            "Tooltip": "Se ha detectado que el puerto de la central se encuentra deshabilitado, por favor ejecute las acciones indicadas mas abajo para solucionar el inconveniente."
+        },
+        "Name": "e32e49d8d7749986c32880998631fdca",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Dispositivo": "Puerto de Conexión",
+            "Resultado": "Up/Down"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CategoryName": "Central Telefónica",
+            "Color": "Rojo",
+            "Tooltip": "NA"
+        },
+        "Name": "c336dc9c2b30f710bfb3582138618228",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "DeviceMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/DeviceMatrix v6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Dispositivo": "Puerto de Conexión",
+            "Resultado": "Up/Up"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CategoryName": "Central Telefónica",
+            "Color": "Verde",
+            "Tooltip": "NA"
+        },
+        "Name": "3110653d26297aa870331bbaaa489cc1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

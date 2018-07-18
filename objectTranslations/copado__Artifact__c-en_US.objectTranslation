@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- This is Repository where the Artifact can be stored, in the master branch --></help>
+        <label><!-- Artifact Repository --></label>
+        <name>copado__Artifact_Repository__c</name>
+        <relationshipLabel><!-- Artifacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Org Credential where the metadata of the Artifact is going to be retrieved from --></help>
+        <label><!-- Org Credential --></label>
+        <name>copado__Org_Credential__c</name>
+        <relationshipLabel><!-- Artifacts --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

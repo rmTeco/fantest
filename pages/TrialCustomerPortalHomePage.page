@@ -1,0 +1,14 @@
+<apex:page controller="TrialCustomerPortalHomePageController" showHeader="false">
+<script type="text/javascript">
+
+var date1 = '{!TODAY() + 7}';
+var date2 = '{!TODAY() + 15}';
+var date3 = '{!TODAY() + 24}';
+
+</script>
+
+<apex:form >   
+    
+</apex:form>  
+
+</apex:page>
