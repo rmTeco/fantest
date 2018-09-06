@@ -17,4 +17,12 @@
         <label><!-- UniqueNameField --></label>
         <name>vlocity_cmt__UniqueNameField__c</name>
     </fields>
+    <webLinks>
+        <label><!-- Export --></label>
+        <name>vlocity_cmt__Export</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Merge --></label>
+        <name>vlocity_cmt__Merge</name>
+    </webLinks>
 </CustomObjectTranslation>

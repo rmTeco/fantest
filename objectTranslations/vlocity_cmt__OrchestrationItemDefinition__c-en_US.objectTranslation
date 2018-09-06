@@ -261,4 +261,36 @@
         <name>vlocity_cmt__manualQueueId__c</name>
         <relationshipLabel><!-- Orchestration Item Definitions --></relationshipLabel>
     </fields>
+    <recordTypes>
+        <label><!-- Auto Task --></label>
+        <name>AutoTask</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Callout --></label>
+        <name>Callout</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Manual Task --></label>
+        <name>ManualTask</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Milestone --></label>
+        <name>Milestone</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Pull Event --></label>
+        <name>PullEvent</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Push Event --></label>
+        <name>PushEvent</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sub-plan --></label>
+        <name>SubPlan</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Debug --></label>
+        <name>vlocity_cmt__Debug</name>
+    </webLinks>
 </CustomObjectTranslation>

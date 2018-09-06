@@ -74,6 +74,8 @@
     <reportType>LeadList</reportType>
     <scope>team</scope>
     <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>CREATED_DATE</dateColumn>
         <interval>INTERVAL_THISMONTH</interval>

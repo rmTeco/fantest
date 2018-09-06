@@ -65,7 +65,6 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableEnhancedLookup>true</enableEnhancedLookup>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <externalSharingModel>Read</externalSharingModel>
@@ -212,14 +211,24 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Campo_B__c</fullName>
+        <externalId>false</externalId>
+        <label>Campo B</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>External_Id__c</fullName>
-        <externalId>false</externalId>
-        <label>External Id</label>
-        <length>100</length>
+        <externalId>true</externalId>
+        <label>External_Id</label>
+        <length>18</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
@@ -2475,6 +2484,1059 @@ TEXT(SCP_Certa_GC__CUIT__c))</formula>
         <language>es</language>
     </listViews>
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypes>
+        <fullName>SCP</fullName>
+        <active>true</active>
+        <description>Utilizado para los perfiles que deban crear cuentas usadas para SCP</description>
+        <label>SCP</label>
+        <picklistValues>
+            <picklist>AccountSource</picklist>
+            <values>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar - Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar - Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Word of mouth</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Industry</picklist>
+            <values>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Banking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Biotechnology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Construction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consulting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Food %26 Beverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Government</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machinery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not For Profit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recreation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telecommunications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ownership</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subsidiary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rating</picklist>
+            <values>
+                <fullName>Cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SCP_Certa_GC__Categoria__c</picklist>
+            <values>
+                <fullName>DG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ET</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ST</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SCP_Certa_GC__Micro_Industry__c</picklist>
+            <values>
+                <fullName>Agro%2C Pesca y Forestación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Agua y Saneamientos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alimentos y Bebidas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Almacenamiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alquiler de bienes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotor de Carga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotor de Pasajeros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotores y Camiones</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aéreo de Carga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aéreo de Pasajeros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Banca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call Centers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centros Comerciales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Combustibles y Lubricantes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Construccion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contenido Multimedia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cooperativa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Defensa y Seguridad Pública</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desarrollo de Sistemas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Droguerías</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Educacion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electricas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Esparcimiento Cultural y Deportivo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ferroviario de Carga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ferroviario de Pasajeros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluvial %2F Marítimo de Carga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fluvial %2F Marítimo de Pasajeros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gastronomía</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gobierno Municipal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gobierno Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gobierno Provincial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grupo Telefonica</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hardware Tecnológico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hotelería</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industria Alimentos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industria Automotriz y Autopartes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industria Ligera y Manufacturas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industria Metalurgica y Pesada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industria Química</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industria Textil y Calzado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inmobiliario</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instituciones financieras no bancarias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Laboratorios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medios de Pago</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mensajería y Paquetería</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mineria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Organizaciones No Gubernamentales %28ONGs%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros Administracion publica</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros Comercios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros Industria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros Servicios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Petroleo y Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residuos y Reciclaje</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salud</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seguridad Privada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seguros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicios Profesionales y Consultoría</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Supermercados</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telcos e Internet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Textil y Calzado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tienda Departamental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Todos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turismo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SCP_Certa_GC__PicklistSegmento__c</picklist>
+            <values>
+                <fullName>Negocio Corporativo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wholesale</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SCP_Certa_GC__Region_WH__c</picklist>
+            <values>
+                <fullName>Grandes Operadores</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interior</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prestadores</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telefonía</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SCP_Certa_GC__Region_delta__c</picklist>
+            <values>
+                <fullName>Gobierno</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Privado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pymes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SCP_Certa_GC__Sector__c</picklist>
+            <values>
+                <fullName>Privado</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Público</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SCP_Certa_GC__Segmento_Vertical__c</picklist>
+            <values>
+                <fullName>Administración Pública%2C Defensa y Seguridad Social</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Agricultura%2C Ganadería%2C Caza y Silvicultura</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Asociaciones e Instituciones</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotores - Autopartistas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotores - Concesionarios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotores - Industria Automotriz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Construcción</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consultoras</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Educación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entretenimiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Explotación de Minas y Canteras</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gobierno Extranjero</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gobierno Municipal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gobierno Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gobierno Provincial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industria Alimenticia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industria Química</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrias - Otro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logística</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufactura</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medios de Comunicación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Petróleo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prestadores Servicios Públicos - Agua</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prestadores Servicios Públicos - Correos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prestadores Servicios Públicos - Energía</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prestadores Servicios Públicos - GAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prestadores Servicios Públicos - Transporte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salud - Clínicas%2C Sanatorios y Hospitales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salud - Laboratorios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salud - Medicina Prepaga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seguros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicios - Otro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicios Financieros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicios Financieros - Banca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicios Financieros - Tarjetas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicios Inmobiliarios%2C Empresariales y de Alquiler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicios de Hotelería y Restaurantes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicios-Otros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Siderurgia %2F Metalurgia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tecnología</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telecomunicaciones</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transporte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turismo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SCP_Certa_GC__Sub_region_delta__c</picklist>
+            <values>
+                <fullName>Finanzas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gobierno amba 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gobierno amba 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gobierno litoral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gobierno mediterraneo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Privado litoral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Privado mediterraneo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicios</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Cuenta Cabecera</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cuenta de Gestion</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__AccountPaymentType__c</picklist>
+            <values>
+                <fullName>Postpaid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prepaid</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__Active__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__AutoPaymentAmount__c</picklist>
+            <values>
+                <fullName>Full Balance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Minimum Due</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__BillDeliveryMethod__c</picklist>
+            <values>
+                <fullName>Electronic Statements Online</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paper Billing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eMail</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__BillFrequency__c</picklist>
+            <values>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weekly</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__ContactPreferences__c</picklist>
+            <values>
+                <fullName>Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eMail</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__CustomerValue__c</picklist>
+            <values>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Diamond</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__LegalForm__c</picklist>
+            <values>
+                <fullName>Corporation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LLP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not for Profit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partnership</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sole Proprietorship</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__SLA__c</picklist>
+            <values>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suspended</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__vCustomerPriority__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__vSLA__c</picklist>
+            <values>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <recordTypes>
         <fullName>vlocity_cmt__Billing</fullName>
         <active>true</active>

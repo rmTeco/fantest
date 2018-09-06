@@ -17,4 +17,12 @@
             <translation><!-- All --></translation>
         </picklistValues>
     </fields>
+    <webLinks>
+        <label><!-- GenerateJSONParserClass --></label>
+        <name>vlocity_cmt__GenerateJSONParserClass</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GenerateScreeningClass --></label>
+        <name>vlocity_cmt__GenerateScreeningClass</name>
+    </webLinks>
 </CustomObjectTranslation>

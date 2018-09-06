@@ -184,20 +184,6 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
-        <fullName>Continente__c</fullName>
-        <externalId>false</externalId>
-        <label>Continente</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetName>Continente</valueSetName>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -263,33 +249,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Paises__c</fullName>
-        <externalId>false</externalId>
-        <label>Paises</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <controllingField>Continente__c</controllingField>
-            <restricted>true</restricted>
-            <valueSetName>Paises</valueSetName>
-            <valueSettings>
-                <controllingFieldValue>America</controllingFieldValue>
-                <valueName>Argentina</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Europa</controllingFieldValue>
-                <valueName>Italia</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Asia</controllingFieldValue>
-                <valueName>China</valueName>
-            </valueSettings>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>ParentId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -309,33 +268,6 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Provincias__c</fullName>
-        <externalId>false</externalId>
-        <label>Provincias</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <controllingField>Paises__c</controllingField>
-            <restricted>true</restricted>
-            <valueSetName>Provincias</valueSetName>
-            <valueSettings>
-                <controllingFieldValue>Argentina</controllingFieldValue>
-                <valueName>Corrientes</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Argentina</controllingFieldValue>
-                <valueName>Buenos Aires</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Argentina</controllingFieldValue>
-                <valueName>Santa Fé</valueName>
-            </valueSettings>
-        </valueSet>
     </fields>
     <fields>
         <fullName>Reason</fullName>
@@ -675,21 +607,6 @@
         <description>Billing complaint.</description>
         <label>Billing</label>
         <picklistValues>
-            <picklist>Continente__c</picklist>
-            <values>
-                <fullName>America</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Asia</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Europa</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Origin</picklist>
             <values>
                 <fullName>Email</fullName>
@@ -701,21 +618,6 @@
             </values>
             <values>
                 <fullName>Web</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Paises__c</picklist>
-            <values>
-                <fullName>Argentina</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>China</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Italia</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -732,21 +634,6 @@
             <values>
                 <fullName>Medium</fullName>
                 <default>true</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Provincias__c</picklist>
-            <values>
-                <fullName>Buenos Aires</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Corrientes</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Santa Fé</fullName>
-                <default>false</default>
             </values>
         </picklistValues>
         <picklistValues>
@@ -791,21 +678,6 @@
         <description>Mobile Phone Case</description>
         <label>MobilePhoneCase</label>
         <picklistValues>
-            <picklist>Continente__c</picklist>
-            <values>
-                <fullName>America</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Asia</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Europa</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Origin</picklist>
             <values>
                 <fullName>Email</fullName>
@@ -817,21 +689,6 @@
             </values>
             <values>
                 <fullName>Web</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Paises__c</picklist>
-            <values>
-                <fullName>Argentina</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>China</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Italia</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -848,21 +705,6 @@
             <values>
                 <fullName>Medium</fullName>
                 <default>true</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Provincias__c</picklist>
-            <values>
-                <fullName>Buenos Aires</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Corrientes</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Santa Fé</fullName>
-                <default>false</default>
             </values>
         </picklistValues>
         <picklistValues>
@@ -896,21 +738,6 @@
         <description>There is something wrong with the service provided or a product associated with that service.</description>
         <label>Service</label>
         <picklistValues>
-            <picklist>Continente__c</picklist>
-            <values>
-                <fullName>America</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Asia</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Europa</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Origin</picklist>
             <values>
                 <fullName>Email</fullName>
@@ -922,21 +749,6 @@
             </values>
             <values>
                 <fullName>Web</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Paises__c</picklist>
-            <values>
-                <fullName>Argentina</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>China</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Italia</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -953,21 +765,6 @@
             <values>
                 <fullName>Medium</fullName>
                 <default>true</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Provincias__c</picklist>
-            <values>
-                <fullName>Buenos Aires</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Corrientes</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Santa Fé</fullName>
-                <default>false</default>
             </values>
         </picklistValues>
         <picklistValues>

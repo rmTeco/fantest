@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ContractVersionReadonlyList --></label>
+        <name>ContractVersionReadonlyList</name>
+    </fieldSets>
     <fields>
         <label><!-- Contains Redlines --></label>
         <name>vlocity_cmt__ContainsRedlines__c</name>
@@ -155,4 +159,8 @@
         <label><!-- WML Metadata --></label>
         <name>vlocity_cmt__WMLMetadata__c</name>
     </fields>
+    <webLinks>
+        <label><!-- Preview --></label>
+        <name>vlocity_cmt__Preview</name>
+    </webLinks>
 </CustomObjectTranslation>

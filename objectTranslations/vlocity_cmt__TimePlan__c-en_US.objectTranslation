@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Time Plan --></label>
+        <name>NewTimePlan</name>
+    </fieldSets>
     <fields>
         <label><!-- Description --></label>
         <name>vlocity_cmt__Description__c</name>

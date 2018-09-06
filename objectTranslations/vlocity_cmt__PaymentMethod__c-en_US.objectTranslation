@@ -133,4 +133,12 @@
         <label><!-- Routing Transit Number --></label>
         <name>vlocity_cmt__RoutingTransitNumber__c</name>
     </fields>
+    <validationRules>
+        <errorMessage><!-- This payment method is used in auto pay and it can&apos;t be inactivated. --></errorMessage>
+        <name>vlocity_cmt__EnforceActivePaymentMethodInAutoPay</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Expiration Year is not valid --></errorMessage>
+        <name>vlocity_cmt__ExpirationYearIsValid</name>
+    </validationRules>
 </CustomObjectTranslation>

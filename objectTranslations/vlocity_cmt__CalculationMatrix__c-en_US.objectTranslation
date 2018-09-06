@@ -8,4 +8,8 @@
         <label><!-- Global Key --></label>
         <name>vlocity_cmt__GlobalKey__c</name>
     </fields>
+    <webLinks>
+        <label><!-- Export --></label>
+        <name>vlocity_cmt__Export</name>
+    </webLinks>
 </CustomObjectTranslation>

@@ -87,16 +87,8 @@
             <integrationValue>Argentina</integrationValue>
             <isoCode>AR</isoCode>
             <label>Argentina</label>
-            <orgDefault>true</orgDefault>
+            <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <states>
-                <active>true</active>
-                <integrationValue>Buenos Aires</integrationValue>
-                <isoCode>A</isoCode>
-                <label>Buenos Aires</label>
-                <standard>false</standard>
-                <visible>false</visible>
-            </states>
             <visible>true</visible>
         </countries>
         <countries>

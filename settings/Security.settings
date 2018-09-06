@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SecuritySettings xmlns="http://soap.sforce.com/2006/04/metadata">
-    <networkAccess>
-        <ipRanges>
-            <description>Copado</description>
-            <end>54.88.136.216</end>
-            <start>54.88.136.216</start>
-        </ipRanges>
-        <ipRanges>
-            <description>Copado</description>
-            <end>54.84.188.199</end>
-            <start>54.84.188.199</start>
-        </ipRanges>
-    </networkAccess>
+    <networkAccess/>
     <passwordPolicies>
         <complexity>AlphaNumeric</complexity>
         <expiration>NinetyDays</expiration>

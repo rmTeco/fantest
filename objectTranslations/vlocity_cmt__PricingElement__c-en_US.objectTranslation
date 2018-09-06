@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Price List Pricing Elements --></label>
+        <name>PriceListPricingElements</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Pricing Elements --></label>
+        <name>ProductPricingElements</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Promotion Pricing Elements --></label>
+        <name>PromotionPricingElements</name>
+    </fieldSets>
     <fields>
         <label><!-- Adjustment Value --></label>
         <name>vlocity_cmt__AdjustmentValue__c</name>

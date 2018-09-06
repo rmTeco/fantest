@@ -48,7 +48,6 @@
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableChangeDataCapture>false</enableChangeDataCapture>
-    <enableEnhancedLookup>true</enableEnhancedLookup>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
@@ -85,6 +84,11 @@
         <columns>vlocity_cmt__ImplementationClassName__c</columns>
         <columns>vlocity_cmt__Description__c</columns>
         <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>CalculateUnit</value>
+        </filters>
         <label>All</label>
     </listViews>
     <nameField>

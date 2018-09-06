@@ -360,4 +360,12 @@
         <label><!-- VlocityDataRaptorBundleName --></label>
         <name>vlocity_cmt__VlocityDataRaptorBundleName__c</name>
     </fields>
+    <webLinks>
+        <label><!-- CompleteItem --></label>
+        <name>vlocity_cmt__CompleteItem</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RetryItem --></label>
+        <name>vlocity_cmt__RetryItem</name>
+    </webLinks>
 </CustomObjectTranslation>

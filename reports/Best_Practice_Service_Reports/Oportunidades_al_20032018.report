@@ -117,6 +117,8 @@
     <reportType>OpportunityProduct</reportType>
     <scope>organization</scope>
     <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <sortColumn>Opportunity.SCP_Certa_GC__Total_CUV_USD_resumen__c</sortColumn>
     <sortOrder>Asc</sortOrder>
     <timeFrameFilter>

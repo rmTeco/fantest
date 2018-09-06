@@ -25,4 +25,12 @@
             <translation><!-- In Progress --></translation>
         </picklistValues>
     </fields>
+    <webLinks>
+        <label><!-- ViewOrder --></label>
+        <name>vlocity_cmt__ViewOrder</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewOrderDecomposition --></label>
+        <name>vlocity_cmt__ViewOrderDecomposition</name>
+    </webLinks>
 </CustomObjectTranslation>

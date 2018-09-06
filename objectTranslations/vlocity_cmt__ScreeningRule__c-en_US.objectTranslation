@@ -23,4 +23,8 @@
         <label><!-- Validator Class --></label>
         <name>vlocity_cmt__Validator__c</name>
     </fields>
+    <webLinks>
+        <label><!-- GenerateValidatorClass --></label>
+        <name>vlocity_cmt__GenerateValidatorClass</name>
+    </webLinks>
 </CustomObjectTranslation>

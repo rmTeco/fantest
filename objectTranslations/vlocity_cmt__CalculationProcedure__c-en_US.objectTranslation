@@ -12,4 +12,20 @@
         <label><!-- Global Key --></label>
         <name>vlocity_cmt__GlobalKey__c</name>
     </fields>
+    <recordTypes>
+        <label><!-- Class Based --></label>
+        <name>ClassBased</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Declarative --></label>
+        <name>Declarative</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Export --></label>
+        <name>vlocity_cmt__Export</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Import --></label>
+        <name>vlocity_cmt__Import</name>
+    </webLinks>
 </CustomObjectTranslation>

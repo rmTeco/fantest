@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- AssessmentChildListFieldSet --></label>
+        <name>AssessmentChildListFieldSet</name>
+    </fieldSets>
     <fields>
         <label><!-- Date Initiated --></label>
         <name>vlocity_cmt__AssessmentDate__c</name>

@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Contract Line Items --></label>
+        <name>ContractLineItems</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Pricing Component --></label>
+        <name>NewPricingComponent</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Pricing --></label>
+        <name>ProductPricing</name>
+    </fieldSets>
     <fields>
         <label><!-- Add-on Text --></label>
         <name>vlocity_cmt__AddOnText__c</name>
@@ -182,4 +198,16 @@
         <label><!-- Usage Unit of Measure --></label>
         <name>vlocity_cmt__UsageUnitOfMeasure__c</name>
     </fields>
+    <recordTypes>
+        <label><!-- Alteration --></label>
+        <name>Alteration</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Charge Spec --></label>
+        <name>ChargeSpec</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Grant --></label>
+        <name>Grant</name>
+    </recordTypes>
 </CustomObjectTranslation>

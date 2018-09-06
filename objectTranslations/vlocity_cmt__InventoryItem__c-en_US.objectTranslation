@@ -54,4 +54,12 @@
         <name>vlocity_cmt__ServicePointId__c</name>
         <relationshipLabel><!-- Inventory Items --></relationshipLabel>
     </fields>
+    <recordTypes>
+        <label><!-- Inventory Item --></label>
+        <name>InventoryItem</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Service Qualification Result --></label>
+        <name>ServiceQualificationResult</name>
+    </recordTypes>
 </CustomObjectTranslation>

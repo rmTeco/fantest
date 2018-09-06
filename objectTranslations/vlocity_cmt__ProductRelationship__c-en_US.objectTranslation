@@ -163,4 +163,12 @@
             <translation><!-- Specification --></translation>
         </picklistValues>
     </fields>
+    <validationRules>
+        <errorMessage><!-- Default quantity should not be zero --></errorMessage>
+        <name>vlocity_cmt__Default_quntity_cannot_be_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Min Quantity should be less than or equal to Max Quantity And Default Quantity should be in between Min &amp; Max Quantity --></errorMessage>
+        <name>vlocity_cmt__Min_Max_should_build_a_valid_range</name>
+    </validationRules>
 </CustomObjectTranslation>

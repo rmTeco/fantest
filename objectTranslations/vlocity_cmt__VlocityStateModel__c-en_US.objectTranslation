@@ -36,4 +36,12 @@
         <label><!-- Type Field Value --></label>
         <name>vlocity_cmt__TypeFieldValue__c</name>
     </fields>
+    <webLinks>
+        <label><!-- Export --></label>
+        <name>vlocity_cmt__Export</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ImportExport --></label>
+        <name>vlocity_cmt__ImportExport</name>
+    </webLinks>
 </CustomObjectTranslation>

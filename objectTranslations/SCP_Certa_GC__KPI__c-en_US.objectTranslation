@@ -179,5 +179,9 @@
         <name>SCP_Certa_GC__Unit__c</name>
     </fields>
     <nameFieldLabel><!-- KPI --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- KPI --></label>
+        <name>KPI</name>
+    </recordTypes>
     <startsWith><!-- Consonant --></startsWith>
 </CustomObjectTranslation>

@@ -18,4 +18,6 @@
     <reportType>vlocity_cmt__SegmentAssignments__c</reportType>
     <scope>user</scope>
     <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
 </Report>

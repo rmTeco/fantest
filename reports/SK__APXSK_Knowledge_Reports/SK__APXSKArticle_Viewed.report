@@ -61,6 +61,8 @@
     <reportType>SK__Knowledge_Articles_with_view__c</reportType>
     <scope>organization</scope>
     <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>KnowledgeArticle$CreatedDate</dateColumn>
         <interval>INTERVAL_CUSTOM</interval>

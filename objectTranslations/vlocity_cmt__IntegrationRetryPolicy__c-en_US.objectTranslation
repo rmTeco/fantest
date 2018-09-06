@@ -17,4 +17,16 @@
         <label><!-- Time between retries (Seconds) --></label>
         <name>vlocity_cmt__TimeBetweenRetries__c</name>
     </fields>
+    <recordTypes>
+        <label><!-- Monotonous Forever Retry Policy --></label>
+        <name>MonotonousForeverRetryPolicy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Monotonous Retry Policy --></label>
+        <name>MonotonousRetryPolicy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- No Retry Policy --></label>
+        <name>NoRetryPolicy</name>
+    </recordTypes>
 </CustomObjectTranslation>

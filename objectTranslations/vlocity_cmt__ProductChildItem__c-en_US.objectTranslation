@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Product Structure --></label>
+        <name>ProductStructure</name>
+    </fieldSets>
     <fields>
         <label><!-- Sequence --></label>
         <name>vlocity_cmt__ChildLineNumber__c</name>
@@ -78,4 +82,40 @@
         <label><!-- SeqNumber --></label>
         <name>vlocity_cmt__SeqNumber__c</name>
     </fields>
+    <validationRules>
+        <errorMessage><!-- Default Quantity should be greater than or equal to 0 --></errorMessage>
+        <name>vlocity_cmt__Default_greater_than_0</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Default Quantity must be greater than or equal to Min Quantity --></errorMessage>
+        <name>vlocity_cmt__Default_greater_than_Min</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Default Quantity must be less than or equal to Max Quantity --></errorMessage>
+        <name>vlocity_cmt__Default_less_than_Max</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max Quantity should be greater than or equal to 0 --></errorMessage>
+        <name>vlocity_cmt__Max_greater_than_0</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max Quantity must be greater than or equal to Min Quantity --></errorMessage>
+        <name>vlocity_cmt__Max_less_than_Min</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Min Children Quantity must be less than or equal to Max Children Quantity --></errorMessage>
+        <name>vlocity_cmt__Min_child_greater_than_Max_child_item</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Min Quantity should be greater than or equal to 0 --></errorMessage>
+        <name>vlocity_cmt__Min_greater_than_0</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Min Quantity must be less than or equal to Max Quantity --></errorMessage>
+        <name>vlocity_cmt__Min_greater_than_Max</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Parent Product cannot be added as Child Product --></errorMessage>
+        <name>vlocity_cmt__ParentProduct_cannot_be_ChildProduct</name>
+    </validationRules>
 </CustomObjectTranslation>

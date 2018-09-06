@@ -65,4 +65,8 @@
             <translation><!-- In Progress --></translation>
         </picklistValues>
     </fields>
+    <webLinks>
+        <label><!-- Review --></label>
+        <name>vlocity_cmt__Review</name>
+    </webLinks>
 </CustomObjectTranslation>

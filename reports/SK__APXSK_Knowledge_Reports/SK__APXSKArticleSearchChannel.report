@@ -60,6 +60,8 @@
     <reportType>SK__Knowledge_Article_Searches__c</reportType>
     <scope>organization</scope>
     <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>KnowledgeSearchEventHistory$AsOfDate</dateColumn>
         <interval>INTERVAL_LAST30</interval>

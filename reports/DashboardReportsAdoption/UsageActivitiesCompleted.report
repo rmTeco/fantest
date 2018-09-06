@@ -80,6 +80,8 @@
     <reportType>Activity</reportType>
     <scope>team</scope>
     <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>DUE_DATE</dateColumn>
         <interval>INTERVAL_NEXT90</interval>

@@ -52,4 +52,20 @@
     </fields>
     <nameFieldLabel><!-- Nombre de Account Review --></nameFieldLabel>
     <startsWith><!-- Consonant --></startsWith>
+    <validationRules>
+        <errorMessage><!-- El valor debe ser mayor que 0 y menor que 25 --></errorMessage>
+        <name>SCP_Certa_GC__Customer_Contacts_Limit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El valor debe ser mayor que 0 y menor que 25 --></errorMessage>
+        <name>SCP_Certa_GC__Engagement_Plan_Limit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El valor debe ser mayor que 0 y menor que 25 --></errorMessage>
+        <name>SCP_Certa_GC__Growth_Strategy_Limit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El valor debe ser mayor que 0 y menor que 25 --></errorMessage>
+        <name>SCP_Certa_GC__Sales_Revenue_Limit</name>
+    </validationRules>
 </CustomObjectTranslation>

@@ -174,4 +174,32 @@
         <label><!-- Version --></label>
         <name>vlocity_cmt__Version__c</name>
     </fields>
+    <webLinks>
+        <label><!-- ActivateVersion --></label>
+        <name>vlocity_cmt__ActivateVersion</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateVersion --></label>
+        <name>vlocity_cmt__CreateVersion</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DeactivateVersion --></label>
+        <name>vlocity_cmt__DeactivateVersion</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Designer --></label>
+        <name>vlocity_cmt__Designer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HorizontalModePreview --></label>
+        <name>vlocity_cmt__HorizontalModePreview</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ImportExportScripts --></label>
+        <name>vlocity_cmt__ImportExportScripts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Preview --></label>
+        <name>vlocity_cmt__Preview</name>
+    </webLinks>
 </CustomObjectTranslation>

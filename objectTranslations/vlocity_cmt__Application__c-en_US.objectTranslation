@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ApplicationChildListFieldSet --></label>
+        <name>ApplicationChildListFieldSet</name>
+    </fieldSets>
     <fields>
         <label><!-- Account --></label>
         <name>vlocity_cmt__AccountId__c</name>
@@ -94,4 +98,12 @@
             <translation><!-- All --></translation>
         </picklistValues>
     </fields>
+    <webLinks>
+        <label><!-- Review --></label>
+        <name>vlocity_cmt__Review</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Screen --></label>
+        <name>vlocity_cmt__Screen</name>
+    </webLinks>
 </CustomObjectTranslation>

@@ -213,5 +213,6 @@
             </values>
         </picklistValues>
     </recordTypes>
+    <searchLayouts/>
     <sharingModel>Private</sharingModel>
 </CustomObject>

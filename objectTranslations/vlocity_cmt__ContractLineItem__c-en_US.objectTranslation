@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ContractLineItemReadOnlyList --></label>
+        <name>ContractLineItemReadOnlyList</name>
+    </fieldSets>
     <fields>
         <label><!-- Asset --></label>
         <name>vlocity_cmt__AssetId__c</name>
@@ -224,4 +228,12 @@
         <label><!-- Unit Price --></label>
         <name>vlocity_cmt__UnitPrice__c</name>
     </fields>
+    <validationRules>
+        <errorMessage><!-- Contract Line Item Effective End Date has to be earlier than Contract End Date --></errorMessage>
+        <name>vlocity_cmt__ValidateEndDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contract Line Item Effective Start Date has to be later than Contract Start Date --></errorMessage>
+        <name>vlocity_cmt__ValidateStartDate</name>
+    </validationRules>
 </CustomObjectTranslation>

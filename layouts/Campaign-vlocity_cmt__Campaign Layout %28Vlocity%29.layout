@@ -153,6 +153,11 @@
     <platformActionList>
         <actionListContext>Record</actionListContext>
         <platformActionListItems>
+            <actionName>Campaign.vlocity_cmt__AddMembers</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>0</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>Campaign.vlocity_cmt__Mass_Email</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>1</sortOrder>
@@ -176,11 +181,6 @@
             <actionName>Campaign.vlocity_cmt__Advanced_Setup</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>5</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>Campaign.vlocity_cmt__AddMembers</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>0</sortOrder>
         </platformActionListItems>
     </platformActionList>
     <quickActionList/>

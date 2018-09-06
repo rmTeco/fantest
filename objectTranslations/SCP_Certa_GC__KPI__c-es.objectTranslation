@@ -170,4 +170,8 @@
         <label><!-- Unit --></label>
         <name>SCP_Certa_GC__Unit__c</name>
     </fields>
+    <recordTypes>
+        <label><!-- KPI --></label>
+        <name>KPI</name>
+    </recordTypes>
 </CustomObjectTranslation>

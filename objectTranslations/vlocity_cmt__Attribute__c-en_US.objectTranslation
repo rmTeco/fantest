@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- List Attributes for Export --></label>
+        <name>ListAttributesForExport</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Attribute --></label>
+        <name>NewAttribute</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- VlocityAdmin --></label>
+        <name>VlocityAdmin</name>
+    </fieldSets>
     <fields>
         <label><!-- Active --></label>
         <name>vlocity_cmt__ActiveFlg__c</name>
@@ -260,4 +276,12 @@
         <label><!-- Hidden By Default --></label>
         <name>vlocity_cmt__isDefaultHidden__c</name>
     </fields>
+    <webLinks>
+        <label><!-- Export --></label>
+        <name>vlocity_cmt__Export</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Merge --></label>
+        <name>vlocity_cmt__Merge</name>
+    </webLinks>
 </CustomObjectTranslation>

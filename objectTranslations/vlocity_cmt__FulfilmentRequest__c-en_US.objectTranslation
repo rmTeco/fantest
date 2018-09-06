@@ -41,4 +41,12 @@
         <name>vlocity_cmt__orchestrationPlanId__c</name>
         <relationshipLabel><!-- Fulfilment Requests --></relationshipLabel>
     </fields>
+    <recordTypes>
+        <label><!-- Fulfilment Request --></label>
+        <name>FulfilmentRequest</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Service Qualification Request --></label>
+        <name>ServiceQualificationRequest</name>
+    </recordTypes>
 </CustomObjectTranslation>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fields>
-        <label><!-- External Id --></label>
-        <name>External_Id__c</name>
-    </fields>
+    <fieldSets>
+        <label><!-- StoryFieldSet --></label>
+        <name>StoryFieldSet</name>
+    </fieldSets>
     <fields>
         <label><!-- SCP Dep --></label>
         <name>SCP_Certa_GC__BIG__c</name>
@@ -422,4 +422,77 @@ Filled in by: Calculated automatically. --></help>
             <translation><!-- Passed --></translation>
         </picklistValues>
     </fields>
+    <recordTypes>
+        <description><!-- Mobile Phone Opportunity --></description>
+        <label><!-- MobilePhoneOpportunity --></label>
+        <name>MobilePhoneOpportunity</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- El valor del TMI debe ser un número positivo. --></errorMessage>
+        <name>SCP_Certa_GC__TMI_Positivo</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Asignar_Value_Drivers --></label>
+        <name>SCP_Certa_GC__Asignar_Value_Drivers</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DeliveryStatus --></label>
+        <name>SCP_Certa_GC__DeliveryStatus</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Matriz_de_Decisi_n --></label>
+        <name>SCP_Certa_GC__Matriz_de_Decisi_n</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mosaico_de_Relacionamiento --></label>
+        <name>SCP_Certa_GC__Mosaico_de_Relacionamiento</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Snapshot --></label>
+        <name>SCP_Certa_GC__Snapshot</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CPQ --></label>
+        <name>vlocity_cmt__CPQ</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Configure --></label>
+        <name>vlocity_cmt__Configure</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateContract --></label>
+        <name>vlocity_cmt__CreateContract</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateSchedules --></label>
+        <name>vlocity_cmt__CreateSchedules</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DeliveryStatus --></label>
+        <name>vlocity_cmt__DeliveryStatus</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GenerateDocumentPDF --></label>
+        <name>vlocity_cmt__GenerateDocumentPDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PickFrameContract --></label>
+        <name>vlocity_cmt__PickFrameContract</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RevokeSignature --></label>
+        <name>vlocity_cmt__RevokeSignature</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendForSignature --></label>
+        <name>vlocity_cmt__SendForSignature</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- UpdateContract --></label>
+        <name>vlocity_cmt__UpdateContract</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- UpdateEnvelopeStatus --></label>
+        <name>vlocity_cmt__UpdateEnvelopeStatus</name>
+    </webLinks>
 </CustomObjectTranslation>

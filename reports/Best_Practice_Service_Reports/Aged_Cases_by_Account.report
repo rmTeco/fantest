@@ -48,6 +48,8 @@
     <reportType>CaseList</reportType>
     <scope>organization</scope>
     <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <sortColumn>AGE</sortColumn>
     <sortOrder>Desc</sortOrder>
     <timeFrameFilter>

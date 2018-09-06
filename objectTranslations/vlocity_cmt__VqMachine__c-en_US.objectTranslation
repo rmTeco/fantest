@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- VlocityAdmin --></label>
+        <name>VlocityAdmin</name>
+    </fieldSets>
     <fields>
         <label><!-- Accept Decay Minutes --></label>
         <name>vlocity_cmt__AcceptDecayMinutes__c</name>
@@ -20,4 +24,8 @@
         <label><!-- View Decay Minutes --></label>
         <name>vlocity_cmt__ViewDecayMinutes__c</name>
     </fields>
+    <webLinks>
+        <label><!-- Export --></label>
+        <name>vlocity_cmt__Export</name>
+    </webLinks>
 </CustomObjectTranslation>

@@ -58,4 +58,8 @@
             <translation><!-- Swimlane --></translation>
         </picklistValues>
     </fields>
+    <validationRules>
+        <errorMessage><!-- Orchestration Item Definition and Dependency Item Definition cannot have same value. --></errorMessage>
+        <name>vlocity_cmt__CircularDependencyValidation</name>
+    </validationRules>
 </CustomObjectTranslation>

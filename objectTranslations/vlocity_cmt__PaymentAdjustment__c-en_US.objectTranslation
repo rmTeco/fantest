@@ -148,4 +148,8 @@
             <translation><!-- System Adjustment --></translation>
         </picklistValues>
     </fields>
+    <webLinks>
+        <label><!-- NewPaymentAdjustment --></label>
+        <name>vlocity_cmt__NewPaymentAdjustment</name>
+    </webLinks>
 </CustomObjectTranslation>

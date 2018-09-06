@@ -33,4 +33,8 @@
         <label><!-- Version Number --></label>
         <name>vlocity_cmt__VersionNumber__c</name>
     </fields>
+    <webLinks>
+        <label><!-- CreateNewVersion --></label>
+        <name>vlocity_cmt__CreateNewVersion</name>
+    </webLinks>
 </CustomObjectTranslation>

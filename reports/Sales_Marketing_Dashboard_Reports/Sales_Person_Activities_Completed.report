@@ -53,6 +53,8 @@
     <reportType>Activity</reportType>
     <scope>user</scope>
     <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>DUE_DATE</dateColumn>
         <interval>INTERVAL_THISMONTH</interval>

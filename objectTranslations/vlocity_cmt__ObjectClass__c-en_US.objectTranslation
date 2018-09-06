@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Object --></label>
+        <name>NewObject</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Object Class --></label>
+        <name>NewObjectClass</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Object Type --></label>
+        <name>ObjectType</name>
+    </fieldSets>
     <fields>
         <label><!-- Effective From --></label>
         <name>vlocity_cmt__EffectiveFromDate__c</name>
@@ -50,4 +66,12 @@
         <name>vlocity_cmt__RootObjectClassId__c</name>
         <relationshipLabel><!-- Vlocity Objects and Object Types (Root Object Class) --></relationshipLabel>
     </fields>
+    <recordTypes>
+        <label><!-- Object --></label>
+        <name>Object</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Object Type --></label>
+        <name>ObjectType</name>
+    </recordTypes>
 </CustomObjectTranslation>

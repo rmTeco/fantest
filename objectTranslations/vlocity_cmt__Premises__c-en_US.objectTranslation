@@ -118,4 +118,8 @@
         <label><!-- Street Address --></label>
         <name>vlocity_cmt__StreetAddress__c</name>
     </fields>
+    <webLinks>
+        <label><!-- ValidateAddress --></label>
+        <name>vlocity_cmt__ValidateAddress</name>
+    </webLinks>
 </CustomObjectTranslation>

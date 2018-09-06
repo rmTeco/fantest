@@ -30,6 +30,8 @@
     <reportType>SK__Knowledge_Keyword_Search__c</reportType>
     <scope>durationDay</scope>
     <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>KnowledgeKeywordSearchHistory$AsOfDate</dateColumn>
         <interval>INTERVAL_LAST7</interval>

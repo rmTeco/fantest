@@ -109,4 +109,40 @@
         <label><!-- Weight --></label>
         <name>vlocity_cmt__Weight__c</name>
     </fields>
+    <recordTypes>
+        <label><!-- Checkbox --></label>
+        <name>Checkbox</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Date --></label>
+        <name>Date</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Free Text --></label>
+        <name>FreeText</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Instruction --></label>
+        <name>Instruction</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Multi Select --></label>
+        <name>MultiSelect</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Number --></label>
+        <name>Number</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Question Table Multi Select --></label>
+        <name>QuestionTableMultiSelect</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Question Table Single Select --></label>
+        <name>QuestionTableSingleSelect</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Single Select --></label>
+        <name>SingleSelect</name>
+    </recordTypes>
 </CustomObjectTranslation>

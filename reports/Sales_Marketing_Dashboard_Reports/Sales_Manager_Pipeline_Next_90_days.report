@@ -89,6 +89,8 @@
     <reportType>Opportunity</reportType>
     <scope>team</scope>
     <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>CLOSE_DATE</dateColumn>
         <interval>INTERVAL_NEXT90</interval>

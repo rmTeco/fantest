@@ -68,6 +68,8 @@
     <reportType>OpportunityProduct</reportType>
     <scope>organization</scope>
     <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <sortColumn>ACCOUNT_NAME</sortColumn>
     <sortOrder>Asc</sortOrder>
     <timeFrameFilter>

@@ -129,4 +129,12 @@
         <label><!-- Wednesday Opening Time --></label>
         <name>vlocity_cmt__WednesdayOpeningTime__c</name>
     </fields>
+    <recordTypes>
+        <label><!-- Exception --></label>
+        <name>Exception</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Standard --></label>
+        <name>Standard</name>
+    </recordTypes>
 </CustomObjectTranslation>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Group Member --></label>
+        <name>GroupMember</name>
+    </fieldSets>
     <fields>
         <label><!-- Account --></label>
         <name>vlocity_cmt__AccountId__c</name>
@@ -55,4 +59,8 @@
         <label><!-- Relationship Group --></label>
         <name>vlocity_cmt__RelationshipGroup__c</name>
     </fields>
+    <webLinks>
+        <label><!-- Relationship_Popup --></label>
+        <name>vlocity_cmt__Relationship_Popup</name>
+    </webLinks>
 </CustomObjectTranslation>

@@ -100,4 +100,16 @@
             <translation><!-- Related Party --></translation>
         </picklistValues>
     </fields>
+    <recordTypes>
+        <label><!-- Class Based --></label>
+        <name>ClassBased</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Object Based --></label>
+        <name>ObjectBased</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Export --></label>
+        <name>vlocity_cmt__Export</name>
+    </webLinks>
 </CustomObjectTranslation>

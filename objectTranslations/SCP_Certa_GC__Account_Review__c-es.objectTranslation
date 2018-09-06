@@ -42,4 +42,20 @@
         <label><!-- Total Score --></label>
         <name>SCP_Certa_GC__Total_Score__c</name>
     </fields>
+    <validationRules>
+        <errorMessage><!-- El valor debe ser mayor que 0 y menor que 25 --></errorMessage>
+        <name>SCP_Certa_GC__Customer_Contacts_Limit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El valor debe ser mayor que 0 y menor que 25 --></errorMessage>
+        <name>SCP_Certa_GC__Engagement_Plan_Limit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El valor debe ser mayor que 0 y menor que 25 --></errorMessage>
+        <name>SCP_Certa_GC__Growth_Strategy_Limit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El valor debe ser mayor que 0 y menor que 25 --></errorMessage>
+        <name>SCP_Certa_GC__Sales_Revenue_Limit</name>
+    </validationRules>
 </CustomObjectTranslation>

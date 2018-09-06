@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- FrameContractList --></label>
+        <name>FrameContractList</name>
+    </fieldSets>
     <fields>
         <label><!-- Nombre de la Competencia --></label>
         <name>SCP_Certa_GC__competitorName__c</name>
@@ -192,4 +196,40 @@
         <label><!-- Total: One Time Discount --></label>
         <name>vlocity_cmt__TotalOneTimeDiscount__c</name>
     </fields>
+    <recordTypes>
+        <label><!-- Contract --></label>
+        <name>Contract</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Read Only --></label>
+        <name>ReadOnlyContract</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- CreateNewVersion --></label>
+        <name>vlocity_cmt__CreateNewVersion</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreatePDF --></label>
+        <name>vlocity_cmt__CreatePDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateRenewalOpportunity --></label>
+        <name>vlocity_cmt__CreateRenewalOpportunity</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GenerateDocument --></label>
+        <name>vlocity_cmt__GenerateDocument</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RevokeSignature --></label>
+        <name>vlocity_cmt__RevokeSignature</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendForSignature --></label>
+        <name>vlocity_cmt__SendForSignature</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- UpdateEnvelopeStatus --></label>
+        <name>vlocity_cmt__UpdateEnvelopeStatus</name>
+    </webLinks>
 </CustomObjectTranslation>

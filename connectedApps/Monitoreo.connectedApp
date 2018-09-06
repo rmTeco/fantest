@@ -4,7 +4,7 @@
     <label>Monitoreo</label>
     <oauthConfig>
         <callbackUrl>https://telecomcrm.my.salesforce.com/callback.jsp</callbackUrl>
-        <consumerKey>3MVG9Vik22TUgUphKhs9dOlQTsjwSzI4nIF9zGXPsa3XWGOCUA3zAqjoUT1nre0sGhdtidas76SLeBQ_rAwC6</consumerKey>
+        <consumerKey>3MVG9hq7jmfCuKffxV8EIa4PjxV1C2Zug9BSn8GHQjlvOVeK0c0twflAQkyqf4oG6V267NNAO6DIrLj7A95JD</consumerKey>
         <scopes>Full</scopes>
     </oauthConfig>
 </ConnectedApp>

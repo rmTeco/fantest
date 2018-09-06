@@ -58,4 +58,8 @@
             <translation><!-- Move-Disconnect --></translation>
         </picklistValues>
     </fields>
+    <validationRules>
+        <errorMessage><!-- Action cannot be blank --></errorMessage>
+        <name>vlocity_cmt__ValidateOrchestrationScenario</name>
+    </validationRules>
 </CustomObjectTranslation>

@@ -28,4 +28,12 @@
         <label><!-- Show Order --></label>
         <name>vlocity_cmt__ShowOrder__c</name>
     </fields>
+    <validationRules>
+        <errorMessage><!-- Show Order cannot be less than zero. --></errorMessage>
+        <name>vlocity_cmt__ShowOrderValidation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Export --></label>
+        <name>vlocity_cmt__Export</name>
+    </webLinks>
 </CustomObjectTranslation>

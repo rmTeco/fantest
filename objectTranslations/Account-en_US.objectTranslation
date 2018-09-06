@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- InteractionFieldList --></label>
+        <name>InteractionFieldList</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Segment List Export --></label>
+        <name>SegmentListExport</name>
+    </fieldSets>
     <fields>
-        <label><!-- External Id --></label>
+        <label><!-- Campo B --></label>
+        <name>Campo_B__c</name>
+    </fields>
+    <fields>
+        <label><!-- External_Id --></label>
         <name>External_Id__c</name>
     </fields>
     <fields>
@@ -1100,6 +1112,74 @@
             <translation><!-- Silver --></translation>
         </picklistValues>
     </fields>
+    <recordTypes>
+        <description><!-- Use a billing account to add an alternate billing profile to a business account, consumer account or billing aggregator account. --></description>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use a billing aggregator account for large business customers to organize multiple sets of billing accounts in a billing account hierarchy. --></description>
+        <label><!-- Billing Aggregator --></label>
+        <name>BillingAggregator</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use business accounts for customers that are businesses, organizations or other public or private agencies. --></description>
+        <label><!-- Business --></label>
+        <name>Business</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use consumer accounts for customers who are individual consumers, families or small office/home offices. --></description>
+        <label><!-- Consumer --></label>
+        <name>Consumer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MobilePhoneAccount --></label>
+        <name>MobilePhoneAccount</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use other accounts for organizations that are not a customer. --></description>
+        <label><!-- Other --></label>
+        <name>Other</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Utilizado para los perfiles que deban crear cuentas usadas para SCP --></description>
+        <label><!-- SCP --></label>
+        <name>SCP</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use service accounts to add an additional service location to a business account, consumer account or service aggregator account. --></description>
+        <label><!-- Service --></label>
+        <name>Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use a service aggregator account for large business customers to organize multiple sets of service locations in a service account hierarchy. --></description>
+        <label><!-- Service Aggregator --></label>
+        <name>ServiceAggregator</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Las cuentas de tipo gestión deben tener una cuenta principal asociada. --></errorMessage>
+        <name>SCP_Certa_GC__CuentaGestion_DebeTener_CPrincipal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Las cuentas cabecera no pueden tener asociada una cuenta principal. --></errorMessage>
+        <name>SCP_Certa_GC__CuentasCabeceras_sinCuentaPrincipal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo Id Cliente Legado debe tener 10 caracteres. --></errorMessage>
+        <name>SCP_Certa_GC__Id_cliente_legado_diez_caracteres</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El telefono solo puede tener caracteres numericos --></errorMessage>
+        <name>SCP_Certa_GC__campo_telefono_solo_puede_ser_numero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please choose the auto payment method and payment amount to enable the auto payment. --></errorMessage>
+        <name>vlocity_cmt__EnforceAutoPaymentMethodPicked</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in your billing email address. --></errorMessage>
+        <name>vlocity_cmt__EnforceBillingEmailAdressFilled</name>
+    </validationRules>
     <webLinks>
         <label><!-- AltavistaNews --></label>
         <name>AltavistaNews</name>
@@ -1121,7 +1201,31 @@
         <name>HooversProfile</name>
     </webLinks>
     <webLinks>
+        <label><!-- Billing --></label>
+        <name>SCP_Certa_GC__Billing</name>
+    </webLinks>
+    <webLinks>
         <label><!-- YahooMaps --></label>
         <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>vlocity_cmt__Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CalculateAttributes --></label>
+        <name>vlocity_cmt__CalculateAttributes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateGroup --></label>
+        <name>vlocity_cmt__CreateGroup</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateHousehold --></label>
+        <name>vlocity_cmt__CreateHousehold</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Move --></label>
+        <name>vlocity_cmt__Move</name>
     </webLinks>
 </CustomObjectTranslation>

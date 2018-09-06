@@ -52,4 +52,8 @@
             <translation><!-- Product --></translation>
         </picklistValues>
     </fields>
+    <webLinks>
+        <label><!-- NewClause --></label>
+        <name>vlocity_cmt__NewClause</name>
+    </webLinks>
 </CustomObjectTranslation>

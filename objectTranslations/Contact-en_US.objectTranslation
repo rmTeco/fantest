@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Household Member --></label>
+        <name>HouseholdMember</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- InteractionFieldList --></label>
+        <name>InteractionFieldList</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ListMember --></label>
+        <name>ListMember</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Segment List Export --></label>
+        <name>SegmentListExport</name>
+    </fieldSets>
     <fields>
         <label><!-- Activo --></label>
         <name>SCP_Certa_GC__Activo__c</name>
@@ -503,6 +519,26 @@
         <label><!-- Web Site --></label>
         <name>vlocity_cmt__WebSite__c</name>
     </fields>
+    <recordTypes>
+        <label><!-- MobilePhoneContact --></label>
+        <name>MobilePhoneContact</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- El telefono solo puede poseer caracteres numericos --></errorMessage>
+        <name>SCP_Certa_GC__Movil_solo_numeros</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La fecha de nacimiento debe ser un valor menor a hoy --></errorMessage>
+        <name>SCP_Certa_GC__fecha_de_nacimiento_menor_a_hoy</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El telefono solo puede poseer caracteres numericos --></errorMessage>
+        <name>SCP_Certa_GC__telefono_solo_numerico</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Social Security Number is 9-digit number --></errorMessage>
+        <name>vlocity_cmt__EnforceSocialSecurityNumberlength</name>
+    </validationRules>
     <webLinks>
         <label><!-- GoogleMaps --></label>
         <name>GoogleMaps</name>
@@ -510,6 +546,14 @@
     <webLinks>
         <label><!-- GoogleSearch --></label>
         <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mosaico_de_Relacionamiento_General --></label>
+        <name>SCP_Certa_GC__Mosaico_de_Relacionamiento_General</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Organigrama --></label>
+        <name>SCP_Certa_GC__Organigrama</name>
     </webLinks>
     <webLinks>
         <label><!-- SendGmail --></label>
@@ -522,5 +566,17 @@
     <webLinks>
         <label><!-- YahooWeather --></label>
         <name>YahooWeather</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateGroup --></label>
+        <name>vlocity_cmt__CreateGroup</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateHousehold --></label>
+        <name>vlocity_cmt__CreateHousehold</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Order --></label>
+        <name>vlocity_cmt__New_Order</name>
     </webLinks>
 </CustomObjectTranslation>

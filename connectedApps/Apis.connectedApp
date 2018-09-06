@@ -5,7 +5,7 @@
     <oauthConfig>
         <callbackUrl>https://na35.salesforce.com/services/oauth2/success
 https://na35.salesforce.com/callback.jsp</callbackUrl>
-        <consumerKey>3MVG9Vik22TUgUphKhs9dOlQTsjwSzI4nIF9z71BJ.ERv9G0EHniK5R96Eltr6ParYhUm1OQjNxJrljGhn0fj</consumerKey>
+        <consumerKey>3MVG9hq7jmfCuKffxV8EIa4PjxV1C2Zug9BSnt9nnwNaIbaGsbK57.8VlnQfoVaMAeK5vU931crE1aL0EpNe_</consumerKey>
         <scopes>Full</scopes>
     </oauthConfig>
 </ConnectedApp>

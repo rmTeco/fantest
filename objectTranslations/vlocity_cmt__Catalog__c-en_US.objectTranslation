@@ -50,4 +50,16 @@
         <name>vlocity_cmt__VendorAccount__c</name>
         <relationshipLabel><!-- Catalogs --></relationshipLabel>
     </fields>
+    <validationRules>
+        <errorMessage><!-- End Date Time must be greater than Start Date Time --></errorMessage>
+        <name>vlocity_cmt__End_After_Start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Start Date Time must be less than End Date Time --></errorMessage>
+        <name>vlocity_cmt__Start_Before_End</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- UpdateCategoryData --></label>
+        <name>vlocity_cmt__UpdateCategoryData</name>
+    </webLinks>
 </CustomObjectTranslation>

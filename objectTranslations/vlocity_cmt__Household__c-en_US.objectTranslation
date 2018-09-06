@@ -92,4 +92,12 @@
             <translation><!-- Partners --></translation>
         </picklistValues>
     </fields>
+    <recordTypes>
+        <label><!-- Group --></label>
+        <name>Group</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Household --></label>
+        <name>Household</name>
+    </recordTypes>
 </CustomObjectTranslation>

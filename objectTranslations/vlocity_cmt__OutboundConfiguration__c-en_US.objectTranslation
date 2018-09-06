@@ -52,4 +52,8 @@
         <label><!-- Template --></label>
         <name>vlocity_cmt__Template__c</name>
     </fields>
+    <webLinks>
+        <label><!-- ReviewProcess --></label>
+        <name>vlocity_cmt__ReviewProcess</name>
+    </webLinks>
 </CustomObjectTranslation>

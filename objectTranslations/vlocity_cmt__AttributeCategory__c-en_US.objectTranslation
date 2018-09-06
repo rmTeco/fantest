@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- VlocityAdmin --></label>
+        <name>VlocityAdmin</name>
+    </fieldSets>
     <fields>
         <label><!-- Applicable Sub Type --></label>
         <name>vlocity_cmt__ApplicableSubType__c</name>
@@ -165,4 +173,12 @@
             <translation><!-- TextComment --></translation>
         </picklistValues>
     </fields>
+    <webLinks>
+        <label><!-- ContentAttributes --></label>
+        <name>vlocity_cmt__ContentAttributes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Export --></label>
+        <name>vlocity_cmt__Export</name>
+    </webLinks>
 </CustomObjectTranslation>

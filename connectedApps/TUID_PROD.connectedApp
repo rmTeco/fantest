@@ -4,7 +4,7 @@
     <label>TUID_PROD</label>
     <oauthConfig>
         <callbackUrl>https://na35.salesforce.com/service/oauth2/callback</callbackUrl>
-        <consumerKey>3MVG9Vik22TUgUphKhs9dOlQTsjwSzI4nIF9zUhxh7WEZ5EKr2ln_HSRtg5.ZfncMNHq6PDdLS3K0O8toAcbK</consumerKey>
+        <consumerKey>3MVG9hq7jmfCuKffxV8EIa4PjxV1C2Zug9BSnRrVN_.o0lAfeEbIfMylTSFayDrK0sMBFwmFxN8tAPKs7UNRS</consumerKey>
         <scopes>Full</scopes>
     </oauthConfig>
 </ConnectedApp>

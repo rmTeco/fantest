@@ -5,7 +5,7 @@
     <label>SOC_PROD</label>
     <oauthConfig>
         <callbackUrl>https://localhost:18088/oauth2callback</callbackUrl>
-        <consumerKey>3MVG9Vik22TUgUphKhs9dOlQTsjwSzI4nIF9za4Y2Isdod.6sxzgoKNbVqhqICBNAZgQyIRoeImfG0jeibmRd</consumerKey>
+        <consumerKey>3MVG9hq7jmfCuKffxV8EIa4PjxV1C2Zug9BSnFpV6J967ncA2Pxofu.Yhlmrrn7ug_XWdwvkRAw==</consumerKey>
         <scopes>Full</scopes>
     </oauthConfig>
 </ConnectedApp>

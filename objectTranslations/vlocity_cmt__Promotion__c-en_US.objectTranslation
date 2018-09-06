@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Promotion --></label>
+        <name>NewPromotion</name>
+    </fieldSets>
     <fields>
         <label><!-- Benefit Time Plan --></label>
         <name>vlocity_cmt__BenefitTimePlanId__c</name>
