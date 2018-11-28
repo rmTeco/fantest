@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>ChatterAnswersAgentView</members>
-        <members>ChatterAnswersChangePassword</members>
-        <name>ApexPage</name>
+        <members>CopadoTest_Object__c.USD__c</members>
+        <members>SCP_Certa_GC__Account_Competitor__c.SCP_Certa_GC__Account__c</members>
+        <members>SCP_Certa_GC__Account_Competitor__c.SCP_Certa_GC__CUC_CLIENTE__c</members>
+        <name>CustomField</name>
     </types>
     <version>43.0</version>
 </Package>
