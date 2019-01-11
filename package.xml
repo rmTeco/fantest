@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CopadoTest_Object__c.USD__c</members>
-        <members>SCP_Certa_GC__Account_Competitor__c.SCP_Certa_GC__Account__c</members>
-        <members>SCP_Certa_GC__Account_Competitor__c.SCP_Certa_GC__CUC_CLIENTE__c</members>
-        <name>CustomField</name>
+        <members>XappiaController</members>
+        <members>XappiaControllerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>sfadminapps</members>
+        <members>vlocity_cmt</members>
+        <name>InstalledPackage</name>
     </types>
     <version>43.0</version>
 </Package>
