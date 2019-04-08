@@ -32,6 +32,10 @@
                 <behavior>Edit</behavior>
                 <field>Reason</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Unicos__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -198,6 +202,13 @@
         <fields>vlocity_cmt__Status__c</fields>
         <fields>vlocity_cmt__Type__c</fields>
         <relatedList>vlocity_cmt__PaymentAdjustment__c.vlocity_cmt__DisputeId__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>SOLUTION.ISSUE</fields>
+        <fields>SOLUTION.SOLUTION_NUMBER</fields>
+        <fields>SOLUTION.STATUS</fields>
+        <fields>CORE.USERS.ALIAS</fields>
+        <relatedList>RelatedSolutionList</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
