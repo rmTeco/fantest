@@ -1,12 +1,12 @@
 {
-    "allowSaveForLater": true,
+    "allowSaveForLater": false,
     "autoFocus": false,
     "autoSaveOnStepNext": false,
-    "cancelRedirectPageName": "OmniScriptCancelled",
-    "cancelRedirectTemplateUrl": "vlcCancelled.html",
-    "cancelSource": "%ContextId%",
-    "cancelType": "SObject",
-    "consoleTabLabel": "New",
+    "cancelRedirectPageName": "",
+    "cancelRedirectTemplateUrl": "",
+    "cancelSource": "/clientes/s/login/SelfRegister",
+    "cancelType": "URL",
+    "consoleTabLabel": "",
     "currencyCode": "",
     "elementTypeToHTMLTemplateMapping": {
     },

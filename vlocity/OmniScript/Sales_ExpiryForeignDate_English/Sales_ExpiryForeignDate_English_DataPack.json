@@ -1,5 +1,5 @@
 {
-    "%vlocity_namespace%__AdditionalInformation__c": "PFTA-6669",
+    "%vlocity_namespace%__AdditionalInformation__c": "PFTA-11426 from v3",
     "%vlocity_namespace%__Element__c": [
         "Sales_ExpiryForeignDate_English_Element_BlockExpiryDate.json",
         "Sales_ExpiryForeignDate_English_Element_ChangeExpiryDate.json",
