@@ -1,5 +1,6 @@
 {
-    "allowSaveForLater": true,
+    "HTMLTemplateId": "",
+    "allowSaveForLater": false,
     "autoFocus": false,
     "autoSaveOnStepNext": false,
     "cancelRedirectPageName": "OmniScriptCancelled",
@@ -7,12 +8,15 @@
     "cancelSource": "%ContextId%",
     "cancelType": "SObject",
     "consoleTabLabel": "New",
+    "controlWidth": 12,
     "currencyCode": "",
     "elementTypeToHTMLTemplateMapping": {
     },
-    "enableKnowledge": false,
+    "enableKnowledge": true,
     "knowledgeArticleTypeQueryFieldsMap": {
+        "KB_Article__kav": "KB_Body__c"
     },
+    "label": null,
     "message": {
     },
     "persistentComponent": [
@@ -43,7 +47,7 @@
         {
             "id": "vlcKnowledge",
             "itemsKey": "knowledgeItems",
-            "label": "",
+            "label": "Base de conocimiento",
             "modalConfigurationSetting": {
                 "modalController": "",
                 "modalHTMLTemplateId": "",
@@ -58,9 +62,11 @@
                 "preTransformBundle": ""
             },
             "remoteTimeout": 30000,
-            "render": false
+            "render": true
         }
     ],
+    "redirectPageName": "mobileDone",
+    "redirectTemplateUrl": "vlcMobileConfirmation.html",
     "saveContentEncoded": false,
     "saveExpireInDays": null,
     "saveForLaterRedirectPageName": "sflRedirect",
@@ -71,11 +77,15 @@
     },
     "seedDataJSON": {
     },
+    "show": null,
     "showInputWidth": false,
+    "source": "%ContextId%",
     "ssm": false,
     "timeTracking": true,
     "trackingCustomData": {
     },
+    "type": "SObject",
+    "validationRequired": "Submit",
     "visualforcePagesAvailableInPreview": {
     },
     "wpm": false
