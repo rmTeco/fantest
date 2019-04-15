@@ -51,6 +51,7 @@
     "cancelSource": "%ContextId%",
     "cancelType": "SObject",
     "consoleTabLabel": "New",
+    "currencyCode": "",
     "elementTypeToHTMLTemplateMapping": {
     },
     "enableKnowledge": false,
@@ -135,6 +136,7 @@
     "seedDataJSON": {
         "DeliveryServiceType": "Standard"
     },
+    "showInputWidth": false,
     "ssm": false,
     "timeTracking": false,
     "trackingCustomData": {
