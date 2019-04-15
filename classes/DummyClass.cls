@@ -1,5 +1,6 @@
 public class DummyClass {
-    public static void testMeth(){
+    //comment
+	public static void testMeth(){
         
     }
 }
