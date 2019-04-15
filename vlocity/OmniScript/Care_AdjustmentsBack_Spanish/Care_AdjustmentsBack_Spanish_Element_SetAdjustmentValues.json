@@ -1,47 +1,61 @@
 {
     "%vlocity_namespace%__Active__c": true,
-    "%vlocity_namespace%__Level__c": 0,
     "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "ta-care-Adjustments-Back",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Care/AdjustmentsBack/Spanish",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "%vlocity_namespace%__Order__c": 6,
     "%vlocity_namespace%__PropertySet__c": {
         "HTMLTemplateId": "",
+        "cancelLabel": "Cancel",
+        "cancelMessage": "Are you sure?",
+        "completeLabel": "Complete",
+        "completeMessage": "Are you sure you want to complete the script?",
+        "conditionType": "Hide if False",
         "controlWidth": 12,
         "disOnTplt": false,
         "elementValueMap": {
-            "Cantidad-Currency": "=%Case:Amount%",
-            "Cantidad-Number": "=NUMBER(%Case:CantidadAjuste%)",
-            "Cantidad-Text": "=%Case:CantidadAjuste%",
-            "Desde-Currency": "=%Case:FechaDesde%",
-            "Desde-Number": "=%Case:FechaDesde%",
-            "Desde-Text": "=%Case:FechaDesde%",
-            "Hasta-Currency": "=%Case:FechaHasta%",
-            "Hasta-Number": "=%Case:FechaHasta%",
-            "Hasta-Text": "=%Case:FechaHasta%",
-            "TipoSeleccion": "=%Case:TipoSeleccion%",
-            "Unidad-Currency": "=%Case:UnidadAjuste%",
-            "Unidad-Monto": "=%Case:UnidadAjuste%",
-            "Unidad-Number": "=%Case:UnidadAjuste%",
-            "Unidad-Text": "=%Case:UnidadAjuste%",
-            "ajustePorExcepcion-Currency": "=IF(%Case:MarcaExcepcion%, \"true\", \"false\")",
-            "ajustePorExcepcion-Number": "=IF(%Case:MarcaExcepcion%, \"true\", \"false\")",
-            "ajustePorExcepcion-Text": "=IF(%Case:MarcaExcepcion%, \"true\", \"false\")"
+            "CantidadDatosmsBO": "=NUMBER(%Case:CantidadAjuste%)",
+            "CantidadMontoBO": "=%Case:Amount%",
+            "CantidadVozBO": "=%Case:CantidadAjuste%",
+            "DesdeBO": "=%Case:FechaDesde%",
+            "HastaBO": "=%Case:FechaHasta%",
+            "RadioOperationBO": "=%Case:TipoOperacionAjuste%",
+            "UnidadBO": "=%Case:UnidadAjuste%"
+        },
+        "knowledgeOptions": {
+            "dataCategoryCriteria": "",
+            "keyword": "",
+            "language": "English",
+            "publishStatus": "Online",
+            "remoteTimeout": 30000
         },
         "label": "SetValues9",
         "message": {
         },
+        "nextLabel": "Next",
+        "nextWidth": 3,
+        "previousLabel": "Previous",
+        "previousWidth": 3,
+        "remoteOptions": {
+        },
+        "remoteTimeout": 30000,
+        "saveLabel": "Save for later",
+        "saveMessage": "Are you sure you want to save it for later?",
         "show": {
             "group": {
                 "operator": "AND",
                 "rules": [
                     {
-                        "condition": "<>",
-                        "data": "0",
-                        "field": "CaseId"
+                        "condition": "=",
+                        "data": "true",
+                        "field": "isBackOffice"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Servicio",
+                        "field": "TipoSeleccion"
                     }
                 ]
             }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>DummyClass</members>
-        <members>DummyTest</members>
-        <name>ApexClass</name>
+        <members>Care AdjustmentsBack Spanish (a3G2C000000HvN1UAK)</members>
+        <members>Sales PickUpConfiguration English (a3G2C000000HvPlUAK)</members>
+        <name>OmniScript</name>
     </types>
-    <version>43.0</version>
+    <version>45.0</version>
 </Package>

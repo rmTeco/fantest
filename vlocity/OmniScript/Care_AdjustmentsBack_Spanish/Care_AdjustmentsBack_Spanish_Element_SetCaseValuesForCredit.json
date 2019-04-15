@@ -1,13 +1,11 @@
 {
     "%vlocity_namespace%__Active__c": true,
-    "%vlocity_namespace%__Level__c": 0,
     "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "ta-care-Adjustments-Back",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Care/AdjustmentsBack/Spanish",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "%vlocity_namespace%__Order__c": 8,
     "%vlocity_namespace%__PropertySet__c": {
         "HTMLTemplateId": "",
         "controlWidth": 12,
@@ -18,6 +16,7 @@
                 "FechaDesde": "%Desde%",
                 "FechaHasta": "%Hasta%",
                 "MarcaExcepcion": "%ajustePorExcepcion%",
+                "TipoOperacionAjuste": "=%RadioOperation%",
                 "UnidadAjuste": "%Unidad%"
             }
         },
@@ -32,6 +31,16 @@
                         "condition": "=",
                         "data": "Credito",
                         "field": "Unidad"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "null",
+                        "field": "Case:UnidadAjuste"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Servicio",
+                        "field": "TipoSeleccion"
                     }
                 ]
             }
