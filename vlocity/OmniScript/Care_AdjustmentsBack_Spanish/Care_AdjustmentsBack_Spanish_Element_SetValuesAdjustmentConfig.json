@@ -1,13 +1,11 @@
 {
     "%vlocity_namespace%__Active__c": true,
-    "%vlocity_namespace%__Level__c": 0,
     "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "ta-care-Adjustments-Back",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Care/AdjustmentsBack/Spanish",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "%vlocity_namespace%__Order__c": 41,
     "%vlocity_namespace%__PropertySet__c": {
         "HTMLTemplateId": "",
         "controlWidth": 12,
@@ -21,9 +19,10 @@
                     "FechaDesde": "%FormulaDesde%",
                     "FechaHasta": "%FormulaHasta%",
                     "Item": "=%Case:TipoItem%",
-                    "MontoCantidad": "=%FinalAmount%",
+                    "MontoCantidad": "=%Case:Amount%",
                     "Motivo": "=%Case:Motivo%",
-                    "TipoGestion": "=%Case:Subject%",
+                    "NroCuenta": "=%Account:AccountIntegrationId%",
+                    "TipoGestion": "=IF(%Case:TipoOperacionAjuste%=='CREDITO', 'Agregar unidades', IF(%Case:TipoOperacionAjuste%=='DEBITO','Descontar unidades', IF(%Case:TipoOperacionAjuste%=='NC','Nota de crédito', 'Nota de débito')))",
                     "Unidad": "=%Unidad%"
                 }
             ]

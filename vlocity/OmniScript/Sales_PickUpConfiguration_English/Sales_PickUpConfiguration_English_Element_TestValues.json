@@ -1,13 +1,11 @@
 {
     "%vlocity_namespace%__Active__c": false,
-    "%vlocity_namespace%__Level__c": 0,
     "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "PickUpConfiguration",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Sales/PickUpConfiguration/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "%vlocity_namespace%__Order__c": 1,
     "%vlocity_namespace%__PropertySet__c": {
         "HTMLTemplateId": "",
         "Type__c": {
@@ -28,10 +26,10 @@
         "elementValueMap": {
             "BillingOrder": {
                 "Delivery_Method": "Store Pick Up",
-                "Id": "8016C0000000Rz3",
+                "Id": "8016C0000008aI2",
                 "OrderNumber": "00013663",
-                "OriginStoreLocation": "a3U6C000000301n",
-                "PickUpStoreLocation": "a3U6C0000002eDh",
+                "OriginStoreLocation": "a3U6C000000ID4H",
+                "PickUpStoreLocation": "a3U6C000000HmbG",
                 "Status": "Draft"
             },
             "OrderValidations": {

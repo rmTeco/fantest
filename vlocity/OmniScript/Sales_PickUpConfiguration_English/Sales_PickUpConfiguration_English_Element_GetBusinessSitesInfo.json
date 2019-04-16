@@ -1,13 +1,11 @@
 {
     "%vlocity_namespace%__Active__c": true,
-    "%vlocity_namespace%__Level__c": 0,
     "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "PickUpConfiguration",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Sales/PickUpConfiguration/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "%vlocity_namespace%__Order__c": 2,
     "%vlocity_namespace%__PropertySet__c": {
         "HTMLTemplateId": "",
         "bundle": "ta-sales-DR-getBusinessSitesById",

@@ -1,13 +1,11 @@
 {
     "%vlocity_namespace%__Active__c": true,
-    "%vlocity_namespace%__Level__c": 1,
     "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "ta-care-Adjustments-Back",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Care/AdjustmentsBack/Spanish",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "%vlocity_namespace%__Order__c": 1,
     "%vlocity_namespace%__ParentElementId__c": {
         "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Care/AdjustmentsBack/Spanish",
         "Name": "SummaryDerivateToBO",

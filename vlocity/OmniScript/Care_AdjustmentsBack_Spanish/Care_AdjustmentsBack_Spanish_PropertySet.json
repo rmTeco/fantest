@@ -4,20 +4,15 @@
     "autoSaveOnStepNext": false,
     "cancelRedirectPageName": "OmniScriptCancelled",
     "cancelRedirectTemplateUrl": "vlcCancelled.html",
-    "cancelSource": "%ContextId%",
-    "cancelType": "SObject",
+    "cancelSource": "c__ta_care_cancel_process?CaseId=%Case:Id%",
+    "cancelType": "URL",
     "consoleTabLabel": "New",
-    "controlWidth": 12,
     "currencyCode": "",
     "elementTypeToHTMLTemplateMapping": {
     },
-    "elementValueMap": {
-    },
-    "enableKnowledge": true,
+    "enableKnowledge": false,
     "knowledgeArticleTypeQueryFieldsMap": {
-        "Asteriscado__kav": "Summary,Body__c"
     },
-    "label": null,
     "message": {
     },
     "persistentComponent": [
@@ -70,7 +65,7 @@
     "saveExpireInDays": null,
     "saveForLaterRedirectPageName": "sflRedirect",
     "saveForLaterRedirectTemplateUrl": "vlcSaveForLaterAcknowledge.html",
-    "saveNameTemplate": null,
+    "saveNameTemplate": "Inconvenientes con cargos tasados y facturados",
     "saveObjectId": "%ContextId%",
     "saveURLPatterns": {
     },
@@ -78,10 +73,9 @@
     },
     "showInputWidth": false,
     "ssm": false,
-    "timeTracking": false,
+    "timeTracking": true,
     "trackingCustomData": {
     },
-    "validationRequired": "Step",
     "visualforcePagesAvailableInPreview": {
     },
     "wpm": false

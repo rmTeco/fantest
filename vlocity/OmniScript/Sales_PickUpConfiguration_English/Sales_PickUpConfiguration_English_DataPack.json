@@ -1,16 +1,15 @@
 {
     "%vlocity_namespace%__AdditionalInformation__c": "PFTA-7436",
     "%vlocity_namespace%__Element__c": [
-        "Sales_PickUpConfiguration_English_Element_DeliveryMethod.json",
-        "Sales_PickUpConfiguration_English_Element_DeliveryMethodConfiguration.json",
+        "Sales_PickUpConfiguration_English_Element_TestValues.json",
         "Sales_PickUpConfiguration_English_Element_GetBusinessSitesInfo.json",
-        "Sales_PickUpConfiguration_English_Element_OrderStatus.json",
-        "Sales_PickUpConfiguration_English_Element_PickUpStore.json",
         "Sales_PickUpConfiguration_English_Element_SetDeliveryMethodFromOrder.json",
         "Sales_PickUpConfiguration_English_Element_SetDeliveryMethodNonTangible.json",
-        "Sales_PickUpConfiguration_English_Element_TestValues.json"
+        "Sales_PickUpConfiguration_English_Element_DeliveryMethodConfiguration.json",
+        "Sales_PickUpConfiguration_English_Element_OrderStatus.json",
+        "Sales_PickUpConfiguration_English_Element_DeliveryMethod.json",
+        "Sales_PickUpConfiguration_English_Element_PickUpStore.json"
     ],
-    "%vlocity_namespace%__IsActive__c": true,
     "%vlocity_namespace%__IsProcedure__c": false,
     "%vlocity_namespace%__IsReusable__c": true,
     "%vlocity_namespace%__Language__c": "English",
