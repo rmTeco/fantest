@@ -1,17 +1,16 @@
 {
     "%vlocity_namespace%__Active__c": true,
     "%vlocity_namespace%__InternalNotes__c": "Se vuelve a consultar el status del caso para validar si ya esta autorizado por quien corresponda segun RAV.",
-    "%vlocity_namespace%__Level__c": 0,
     "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "ta-care-Adjustments-Back",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Care/AdjustmentsBack/Spanish",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "%vlocity_namespace%__Order__c": 36,
     "%vlocity_namespace%__PropertySet__c": {
         "HTMLTemplateId": "",
         "bundle": "GetCaseInfoById",
+        "consoleTabLabel": "New",
         "controlWidth": 12,
         "dataRaptor Input Parameters": [
             {
@@ -19,6 +18,7 @@
                 "inputParam": "Id"
             }
         ],
+        "disOnTplt": false,
         "failureAbortLabel": "Abort",
         "failureAbortMessage": "Are you sure?",
         "failureNextLabel": "Continue",
@@ -41,7 +41,9 @@
             false,
             false
         ],
+        "source": "%ContextId%",
         "ssm": false,
+        "type": "SObject",
         "validationRequired": "None",
         "wpm": false
     },

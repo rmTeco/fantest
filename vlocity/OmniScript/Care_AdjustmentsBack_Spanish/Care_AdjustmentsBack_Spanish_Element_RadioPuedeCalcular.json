@@ -1,21 +1,19 @@
 {
     "%vlocity_namespace%__Active__c": true,
-    "%vlocity_namespace%__Level__c": 1,
     "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "ta-care-Adjustments-Back",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Care/AdjustmentsBack/Spanish",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "%vlocity_namespace%__Order__c": 4,
     "%vlocity_namespace%__ParentElementId__c": {
         "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Care/AdjustmentsBack/Spanish",
-        "Name": "Step-adjustmentConfiguration",
+        "Name": "Step-AjusteNivelLinea",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Care/AdjustmentsBack/Spanish/Step-adjustmentConfiguration",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Care/AdjustmentsBack/Spanish/Step-AjusteNivelLinea",
         "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
     },
-    "%vlocity_namespace%__ParentElementName__c": "Step-adjustmentConfiguration",
+    "%vlocity_namespace%__ParentElementName__c": "Step-AjusteNivelLinea",
     "%vlocity_namespace%__ParentElementType__c": "Step",
     "%vlocity_namespace%__PropertySet__c": {
         "HTMLTemplateId": "",
@@ -28,12 +26,16 @@
             "type": ""
         },
         "disOnTplt": false,
+        "elementValueMap": {
+        },
         "enableCaption": true,
         "help": false,
         "helpText": "",
         "hide": false,
         "horizontalMode": false,
         "label": "¿Puede calcular el ajuste?",
+        "message": {
+        },
         "optionHeight": 100,
         "optionSource": {
             "source": "",
@@ -65,7 +67,14 @@
                     }
                 ]
             }
-        }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
     },
     "%vlocity_namespace%__ReusableOmniScript__c": true,
     "%vlocity_namespace%__Type__c": "Radio",
