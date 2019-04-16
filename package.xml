@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Care AdjustmentsBack Spanish (a3G2C000000HvN1UAK)</members>
-        <members>Sales PickUpConfiguration English (a3G2C000000HvPlUAK)</members>
-        <name>OmniScript</name>
+        <members>ChatterAnswers</members>
+        <members>ChatterAnswersTest</members>
+        <members>DummyClass</members>
+        <members>DummyTest</members>
+        <members>superSort</members>
+        <members>superSortTest</members>
+        <name>ApexClass</name>
     </types>
     <version>45.0</version>
 </Package>
