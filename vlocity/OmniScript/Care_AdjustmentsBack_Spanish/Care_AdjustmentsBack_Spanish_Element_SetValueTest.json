@@ -1,18 +1,16 @@
 {
     "%vlocity_namespace%__Active__c": false,
-    "%vlocity_namespace%__Level__c": 0,
     "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "ta-care-Adjustments-Back",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Care/AdjustmentsBack/Spanish",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "%vlocity_namespace%__Order__c": 1,
     "%vlocity_namespace%__PropertySet__c": {
         "HTMLTemplateId": "",
         "controlWidth": 12,
         "elementValueMap": {
-            "CaseId": "5006C000003Io01",
+            "CaseId": "5006C000001BJ6O",
             "ContextId": "0016C000009IOSI"
         },
         "label": "SetValues14",

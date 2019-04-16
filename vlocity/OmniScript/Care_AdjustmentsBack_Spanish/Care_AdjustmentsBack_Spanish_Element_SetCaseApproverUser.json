@@ -1,13 +1,11 @@
 {
     "%vlocity_namespace%__Active__c": true,
-    "%vlocity_namespace%__Level__c": 0,
     "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "ta-care-Adjustments-Back",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Care/AdjustmentsBack/Spanish",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "%vlocity_namespace%__Order__c": 27,
     "%vlocity_namespace%__PropertySet__c": {
         "HTMLTemplateId": "",
         "controlWidth": 12,
@@ -16,7 +14,8 @@
             "Case": {
                 "Approver": "%result:approvalId%",
                 "Owner": "=IF(%ReviewerTeam:QueueId%<>'' || %ReviewerTeam:QueueId%<> null , %ReviewerTeam:QueueId%, %result:approvalId%)",
-                "Owner_Team": "%ReviewerTeam:Id%"
+                "Owner_Team": "%ReviewerTeam:Id%",
+                "Status": "En autorización"
             }
         },
         "failureAbortLabel": "Abort",
@@ -39,13 +38,13 @@
                 "rules": [
                     {
                         "condition": "<>",
-                        "data": "Back Office",
+                        "data": "FAN - Back Office",
                         "field": "PerfilAprobador"
                     },
                     {
                         "condition": "<>",
                         "data": "Representante",
-                        "field": "PerfilAprobador"
+                        "field": "result:approvalProfileR"
                     }
                 ]
             }
